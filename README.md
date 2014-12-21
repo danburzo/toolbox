@@ -10,6 +10,7 @@ A collection of tools, libraries and frameworks for web projects.
 * [paper.js](https://github.com/paperjs/paper.js) — The Swiss Army Knife of Vector Graphics Scripting.
 * [d3.js](https://github.com/mbostock/d3) — A JavaScript visualization library for HTML and SVG.
 * [two.js](https://github.com/jonobr1/two.js) — A renderer agnostic two-dimensional drawing api for the web.
+* [opentype.js](https://github.com/nodebox/opentype.js) - Read and write OpenType fonts using JavaScript.
 
 ## 3D
 
