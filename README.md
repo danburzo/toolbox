@@ -1,4 +1,4 @@
-A collection of tools, libraries and frameworks for web projects. 
+A collection of tools, libraries and APIs for web projects, inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox).
 
 ## Image processing
 
@@ -8,9 +8,13 @@ A collection of tools, libraries and frameworks for web projects.
 
 * [chroma.js](https://github.com/gka/chroma.js) - JavaScript library for all kinds of color manipulations
 * [paper.js](https://github.com/paperjs/paper.js) — The Swiss Army Knife of Vector Graphics Scripting.
-* [d3.js](https://github.com/mbostock/d3) — A JavaScript visualization library for HTML and SVG.
 * [two.js](https://github.com/jonobr1/two.js) — A renderer agnostic two-dimensional drawing api for the web.
 * [opentype.js](https://github.com/nodebox/opentype.js) - Read and write OpenType fonts using JavaScript.
+
+# Data visualization
+
+* [d3.js](https://github.com/mbostock/d3) — A JavaScript visualization library for HTML and SVG.
+* [MetricsGraphics](https://github.com/mozilla/metrics-graphics) — A library optimized for concise, principled data graphics and layouts.
 
 ## 3D
 
