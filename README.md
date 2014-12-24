@@ -25,10 +25,15 @@ A collection of tools, libraries and frameworks for web projects.
 
 * [leaflet.js](https://github.com/Leaflet/Leaflet) JavaScript library for mobile-friendly interactive maps.
 * [Stamen maps](https://github.com/stamen/maps.stamen.com)
+* [turf.js](https://github.com/Turfjs/turf) - A modular geospatial engine written in JavaScript.
 
 ## Rich text editing
 
 * [scribe](https://github.com/guardian/scribe) — A rich text editor framework for the web platform.
+
+## Data sets
+
+* [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets)
 
 ## Application architecture
 
