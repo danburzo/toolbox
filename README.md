@@ -3,6 +3,8 @@ A collection of tools, libraries and APIs for web projects, inspired by [javiera
 ## Image processing
 
 * [quaggaJS](https://github.com/serratus/quaggaJS) — An advanced barcode-scanner written in JavaScript.
+* [omggif](https://github.com/deanm/omggif) — JavaScript implementation of a GIF 89a encoder and decoder.
+
 
 ## Drawing, illustration
 
