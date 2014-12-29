@@ -1,4 +1,4 @@
-A collection of tools, libraries and APIs for web projects, inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox).
+A collection of tools, libraries and APIs for web projects, inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox). It's a reference as well as a compendium of things you can do in the browser that can hopefully inspire your next creative web project.
 
 ## Image processing
 
@@ -49,6 +49,13 @@ A collection of tools, libraries and APIs for web projects, inspired by [javiera
 ## Rich text editing
 
 * [scribe](https://github.com/guardian/scribe) — A rich text editor framework for the web platform.
+
+## Working with documents
+
+* [pdf.js](https://github.com/mozilla/pdf.js/) - PDF Reader in JavaScript.
+* [jsPDF](https://github.com/MrRio/jsPDF) - Generate PDF files in JavaScript. 
+* [epub.js](https://github.com/futurepress/epub.js/) - EPUBs in the browser.
+
 
 ## Data sets
 
