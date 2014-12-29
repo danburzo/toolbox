@@ -16,11 +16,14 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 * [two.js](https://github.com/jonobr1/two.js) — A renderer agnostic two-dimensional drawing api for the web.
 * [opentype.js](https://github.com/nodebox/opentype.js) - Read and write OpenType fonts using JavaScript.
 * [snap.svg](https://github.com/adobe-webplatform/Snap.svg) - The JavaScript library for modern SVG graphics.
+* [p5.js](https://github.com/lmccart/p5.js) - A JS client-side library for creating graphic and interactive experiences, based on the core principles of Processing.
 
 ### Data visualization
 
 * [d3.js](https://github.com/mbostock/d3) — A JavaScript visualization library for HTML and SVG.
 * [MetricsGraphics](https://github.com/mozilla/metrics-graphics) — A library optimized for concise, principled data graphics and layouts.
+* [dagre](https://github.com/cpettitt/dagre) - Directed graph renderer for JavaScript (see also [dagre-d3](https://github.com/cpettitt/dagre-d3)).
+
 
 ### 3D
 
@@ -56,6 +59,11 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 * [pdf.js](https://github.com/mozilla/pdf.js/) - PDF reader in JavaScript.
 * [jsPDF](https://github.com/MrRio/jsPDF) - Generate PDF files in JavaScript. 
 * [epub.js](https://github.com/futurepress/epub.js/) - EPUBs in the browser.
+* 
+
+### Data structures
+
+* [graphlib](https://github.com/cpettitt/graphlib) - A directed multi-graph library for JavaScript.
 
 ### Sensible app architecture
 
