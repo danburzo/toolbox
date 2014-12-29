@@ -61,9 +61,10 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 * [epub.js](https://github.com/futurepress/epub.js/) - EPUBs in the browser.
 * 
 
-### Data structures
+### Algorithms, Data structures
 
 * [graphlib](https://github.com/cpettitt/graphlib) - A directed multi-graph library for JavaScript.
+* [brain](https://github.com/harthur/brain) - Neural networks in JavaScript.
 
 ### Sensible app architecture
 
