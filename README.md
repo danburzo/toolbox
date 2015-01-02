@@ -8,6 +8,7 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 * [omggif](https://github.com/deanm/omggif) — JavaScript implementation of a GIF 89a encoder and decoder.
 * [Animated_GIF](https://github.com/sole/Animated_GIF) - Javascript library for creating animated GIFs (uses omggif).
 * [Lanczos.js](https://github.com/mudcube/Lanczos.js) - Lancszos image resampling.
+* [exif.js](https://github.com/jseidelin/exif-js) - JavaScript library for reading EXIF image metadata.
 
 ### Drawing, illustration
 
@@ -59,7 +60,6 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 * [pdf.js](https://github.com/mozilla/pdf.js/) - PDF reader in JavaScript.
 * [jsPDF](https://github.com/MrRio/jsPDF) - Generate PDF files in JavaScript. 
 * [epub.js](https://github.com/futurepress/epub.js/) - EPUBs in the browser.
-* 
 
 ### Algorithms, Data structures
 
