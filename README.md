@@ -75,6 +75,7 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 # Data sets
 
 * [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets)
+* [Natural Earth Vector](https://github.com/nvkelso/natural-earth-vector) - A global, public domain map dataset available at three scales and featuring tightly integrated vector and raster data.
 
 # APIs
 
