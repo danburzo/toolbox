@@ -24,6 +24,7 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 * [d3.js](https://github.com/mbostock/d3) — A JavaScript visualization library for HTML and SVG.
 * [MetricsGraphics](https://github.com/mozilla/metrics-graphics) — A library optimized for concise, principled data graphics and layouts.
 * [dagre](https://github.com/cpettitt/dagre) - Directed graph renderer for JavaScript (see also [dagre-d3](https://github.com/cpettitt/dagre-d3)).
+* [WebCola](https://github.com/tgdwyer/WebCola) - JavaScript constraint-based graph layout.
 
 
 ### 3D
@@ -76,8 +77,13 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 
 * [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets)
 * [Natural Earth Vector](https://github.com/nvkelso/natural-earth-vector) - A global, public domain map dataset available at three scales and featuring tightly integrated vector and raster data.
+* [countries](https://github.com/mledoze/countries) - World countries in JSON, CSV and XML.
+* [corpora](https://github.com/dariusk/corpora) - A collection of small corpuses of interesting data for the creation of bots and similar stuff.
+
 
 # APIs
 
 * [Wordnik](http://developer.wordnik.com/) - The Wordnik API lets you request definitions, example sentences, spelling suggestions, related words like synonyms and antonyms, phrases containing a given word, word autocompletion, random words, words of the day, and much more.
+* [Echo Nest](http://developer.echonest.com/) - The Echo Nest offers an incredible array of music data and services for developers to build amazing apps and experiences.
+* 
 
