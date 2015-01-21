@@ -41,6 +41,12 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 * [tuna](https://github.com/Dinahmoe/tuna) - An audio effects library for Web Audio.
 * [PitchDetect](https://github.com/cwilso/PitchDetect) - Pitch detection in Web Audio using autocorrelation.
 * [WebAudio](https://github.com/cwilso/WebAudio) - Web Audio API Playground.
+* [Gibberish](https://github.com/charlieroberts/Gibberish) - Fast, JavaScript DSP library that creates JIT optimized audio callbacks using code generation techniques
+
+# Interfaces
+
+* [interface.js](https://github.com/charlieroberts/interface.js) - gui library for music / arts applications that works with touch, mouse and motion events.
+* [Gibber](https://github.com/charlieroberts/Gibber) - An audiovisual live coding environment for the browser.
 
 ### Mapping
 
@@ -85,5 +91,3 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 
 * [Wordnik](http://developer.wordnik.com/) - The Wordnik API lets you request definitions, example sentences, spelling suggestions, related words like synonyms and antonyms, phrases containing a given word, word autocompletion, random words, words of the day, and much more.
 * [Echo Nest](http://developer.echonest.com/) - The Echo Nest offers an incredible array of music data and services for developers to build amazing apps and experiences.
-* 
-
