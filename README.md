@@ -32,6 +32,10 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 * [three.js](https://github.com/mrdoob/three.js/) - JavaScript 3D library.
 * [pre3d](https://github.com/deanm/pre3d/) - JavaScript 3d rendering engine.
 
+### Virtual Reality
+
+* [aframe](https://aframe.io/) - Building blocks for the VR Web.
+
 ### Audio
 
 * [dancer.js](https://github.com/jsantell/dancer.js)
