@@ -89,6 +89,7 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 * [Natural Earth Vector](https://github.com/nvkelso/natural-earth-vector) - A global, public domain map dataset available at three scales and featuring tightly integrated vector and raster data.
 * [countries](https://github.com/mledoze/countries) - World countries in JSON, CSV and XML.
 * [corpora](https://github.com/dariusk/corpora) - A collection of small corpuses of interesting data for the creation of bots and similar stuff.
+* [geonames](http://www.geonames.org/export/) - GeoNames contains over 10 million geographical names and consists of over 9 million unique features whereof 2.8 million populated places and 5.5 million alternate names.
 
 
 # APIs
