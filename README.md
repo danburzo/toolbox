@@ -91,6 +91,7 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 * [corpora](https://github.com/dariusk/corpora) - A collection of small corpuses of interesting data for the creation of bots and similar stuff.
 * [geonames](http://www.geonames.org/export/) contains over 10 million geographical names and consists of over 9 million unique features whereof 2.8 million populated places and 5.5 million alternate names.
 * [Geofabrik OSM Data Extracts](http://download.geofabrik.de/) on continent / country level.
+* [Mapzen Metro Extracts](https://mapzen.com/data/metro-extracts) - City-sized portions of OpenStreetMap, served weekly 
 
 
 # APIs
