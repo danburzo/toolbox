@@ -83,6 +83,10 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 * [Ractive](https://github.com/ractivejs/ractive) — Next-generation DOM manipulation.
 * [Bluebird](https://github.com/petkaantonov/bluebird) — Bluebird is a full featured promise library with unmatched performance.
 
+### Web scraping
+
+* [artoo](https://github.com/medialab/artoo) is a client-side scraper; you enable it on a page via a bookmarklet to quickly prototype scrapers in the console -- you can also make your own custom bookmarklets via Gulp.
+
 # Data sets
 
 * [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets)
