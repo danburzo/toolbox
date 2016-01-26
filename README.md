@@ -98,3 +98,8 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 
 * [Wordnik](http://developer.wordnik.com/) - The Wordnik API lets you request definitions, example sentences, spelling suggestions, related words like synonyms and antonyms, phrases containing a given word, word autocompletion, random words, words of the day, and much more.
 * [Echo Nest](http://developer.echonest.com/) - The Echo Nest offers an incredible array of music data and services for developers to build amazing apps and experiences.
+
+# Command-Line Tools
+
+* [fonttools](https://github.com/behdad/fonttools/) does TTF/OTF conversion to and from XML. This allows you to edit fonts (e.g. metadata) in plain-text and then rebuild them.
+* [Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) helps you filter & merge OpenStreetMap data files (XML, PBF).
