@@ -2,8 +2,7 @@
 
 This is a collection of tricks, tools, libraries, APIs and data sources for creative projects. It's a reference as well as a compendium of things you can do in the browser and the command line.
 
-It's inspired by the highly-recommended [javierarce/toolbox](https://github.com/javierarce/toolbox).
-
+It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). Contributions are welcome via [issues](https://github.com/danburzo/toolbox/issues) or [pull requests](https://github.com/danburzo/toolbox/pulls).
 
 ## JavaScript libraries
 
@@ -122,11 +121,11 @@ It's inspired by the highly-recommended [javierarce/toolbox](https://github.com/
 
 ## Miscellaneous tips & tricks
 
-#### How to start a server into the current folder
+#### Start a server for a folder
 
 OS X and Linux come with Python preinstalled. In your project folder, run `python -m SimpleHTTPServer`. This makes it available at [`http://localhost:8000`](http://localhost:8000).
 
-#### How to fetch a file from the web
+#### Fetch a file from the web
 
 If you want to get a data file from the web in the command line, `wget` is the simplest:
 
@@ -169,4 +168,6 @@ To use a S3 bucket to keep a bunch of files and make them publicly available, yo
 }
 ```
 
-All the files inside will typically be available at `http://myBucketName.s3.amazonaws.com/path/to/file` but you can grab the exact URL from the _Static Website Hosting_ section in the _Properties_ tab.g
+All the files inside will typically be available at `http://myBucketName.s3.amazonaws.com/path/to/file` but you can grab the exact URL from the _Static Website Hosting_ section in the _Properties_ tab.
+
+This is super-useful for hosting video files, since S3 supports __partial content requests__ which is needed to loop `<video>` on your web pages.
