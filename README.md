@@ -1,4 +1,9 @@
-This is a collection of tools, libraries and APIs for web projects, inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox). It's a reference as well as a compendium of things you can do in the browser that can hopefully inspire your next creative web project.
+# Toolbox
+
+This is a collection of tricks, tools, libraries, APIs and data sources for creative projects. It's a reference as well as a compendium of things you can do in the browser and the command line.
+
+It's inspired by the highly-recommended [javierarce/toolbox](https://github.com/javierarce/toolbox).
+
 
 ## JavaScript libraries
 
@@ -89,7 +94,7 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 
 * [artoo](https://github.com/medialab/artoo) is a client-side scraper; you enable it on a page via a bookmarklet to quickly prototype scrapers in the console -- you can also make your own custom bookmarklets via Gulp.
 
-# Data sets
+## Data sets
 
 * [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets)
 * [Natural Earth Vector](https://github.com/nvkelso/natural-earth-vector) - A global, public domain map dataset available at three scales and featuring tightly integrated vector and raster data.
@@ -100,12 +105,68 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 * [Mapzen Metro Extracts](https://mapzen.com/data/metro-extracts) - City-sized portions of OpenStreetMap, served weekly 
 
 
-# APIs
+## APIs
 
 * [Wordnik](http://developer.wordnik.com/) - The Wordnik API lets you request definitions, example sentences, spelling suggestions, related words like synonyms and antonyms, phrases containing a given word, word autocompletion, random words, words of the day, and much more.
 * [Echo Nest](http://developer.echonest.com/) - The Echo Nest offers an incredible array of music data and services for developers to build amazing apps and experiences.
 
-# Command-Line Tools
+## Command-Line Tools
 
 * [fonttools](https://github.com/behdad/fonttools/) does TTF/OTF conversion to and from XML. This allows you to edit fonts (e.g. metadata) in plain-text and then rebuild them.
 * [Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) helps you filter & merge OpenStreetMap data files (XML, PBF).
+
+## Online tools
+
+* [geojson.io](http://geojson.io) - "geojson.io is a quick, simple tool for creating, viewing, and sharing maps. geojson.io is named after GeoJSON, an open source data format, and it supports GeoJSON in all ways - but also accepts KML, GPX, CSV, GTFS, TopoJSON, and other formats."
+* [Overpass Turbo](https://overpass-turbo.eu/) - "a web-based data filtering tool for OpenStreetMap. With overpass turbo you can run Overpass API queries and analyse the resulting OSM data interactively on a map. There is an integrated Wizard which makes creating queries super easy."
+
+## Miscellaneous tips & tricks
+
+#### How to start a server into the current folder
+
+OS X and Linux come with Python preinstalled. In your project folder, run `python -m SimpleHTTPServer`. This makes it available at [`http://localhost:8000`](http://localhost:8000).
+
+#### How to fetch a file from the web
+
+If you want to get a data file from the web in the command line, `wget` is the simplest:
+
+```shell
+wget http://download.geofabrik.de/europe/romania-latest.osm.pbf
+```
+
+(On OS X, you can install `wget` with Homebrew: `brew install wget`)
+
+To fetch a file using Node, a minimal example:
+
+```js
+var http = require('http');
+var fs = require('fs');
+
+var url = 'http://download.geofabrik.de/europe/romania-latest.osm.pbf';
+var output = 'romania-latest.osm.pbf';
+
+http.get(url, function(res) {
+	res.pipe(fs.createWriteStream(output));
+});
+```
+
+#### Make a S3 bucket publicly available
+
+To use a S3 bucket to keep a bunch of files and make them publicly available, you need to make a __bucket policy__. This is under _Permissions_ section on the _Properties_ tab for your bucket. Paste this into the bucket policy (`myBucketName` should be the name of your bucket):
+
+```js
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "PublicReadGetObject",
+			"Effect": "Allow",
+			"Principal": "*",
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::myBucketName/*"
+		}
+	]
+}
+```
+
+All the files inside will typically be available at `http://myBucketName.s3.amazonaws.com/path/to/file` but you can grab the exact URL from the _Static Website Hosting_ section in the _Properties_ tab.g
