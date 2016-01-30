@@ -69,6 +69,8 @@ This is a collection of tools, libraries and APIs for web projects, inspired by 
 ### Working with documents
 
 * [pdf.js](https://github.com/mozilla/pdf.js/) - PDF reader in JavaScript.
+* [pdf2json](https://github.com/modesty/pdf2json) - A PDF file parser that converts PDF binaries to text-based JSON, powered by a fork of pdf.js
+* [pdfkit](https://github.com/devongovett/pdfkit) - A JavaScript PDF generation library for Node and the browser
 * [jsPDF](https://github.com/MrRio/jsPDF) - Generate PDF files in JavaScript. 
 * [epub.js](https://github.com/futurepress/epub.js/) - EPUBs in the browser.
 
