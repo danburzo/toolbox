@@ -171,3 +171,30 @@ To use a S3 bucket to keep a bunch of files and make them publicly available, yo
 All the files inside will typically be available at `http://myBucketName.s3.amazonaws.com/path/to/file` but you can grab the exact URL from the _Static Website Hosting_ section in the _Properties_ tab.
 
 This is super-useful for hosting video files, since S3 supports __partial content requests__ which is needed to loop `<video>` on your web pages.
+
+### Quick project scaffolding
+
+In the command line, you can use the `mkdir` and `touch` utilities to quickly create a bunch of folders and files for your project:
+
+```
+cd my-project
+mkdir js css img test
+touch .gitignore index.html README.md CHANGELOG.md css/style.css js/app.js
+```
+
+This will create the structure:
+
+```
+- my-project
+  - css
+    - style.css
+  - js
+    - app.js
+  - img
+  - test
+  .gitignore
+  index.html
+  README.md
+  CHANGELOG.md
+```
+
