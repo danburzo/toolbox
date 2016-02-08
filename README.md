@@ -107,7 +107,7 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 ## APIs
 
 * [Wordnik](http://developer.wordnik.com/) - The Wordnik API lets you request definitions, example sentences, spelling suggestions, related words like synonyms and antonyms, phrases containing a given word, word autocompletion, random words, words of the day, and much more.
-* [Echo Nest](http://developer.echonest.com/) - The Echo Nest offers an incredible array of music data and services for developers to build amazing apps and experiences.
+* [Echo Nest](http://developer.echonest.com/) - The Echo Nest offers an incredible array of music data and services for developers to build amazing apps and experiences. See also [echonest/remix](https://github.com/echonest/remix).
 
 ## Command-Line Tools
 
