@@ -50,6 +50,7 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 * [PitchDetect](https://github.com/cwilso/PitchDetect) - Pitch detection in Web Audio using autocorrelation.
 * [WebAudio](https://github.com/cwilso/WebAudio) - Web Audio API Playground.
 * [Gibberish](https://github.com/charlieroberts/Gibberish) - Fast, JavaScript DSP library that creates JIT optimized audio callbacks using code generation techniques
+* [Tone.js](https://github.com/Tonejs/Tone.js) - A Web Audio framework for making interactive music in the browser. 
 
 # Interfaces
 
