@@ -96,13 +96,22 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 
 ## Data sets
 
-* [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets)
+### Words
+
+* [Words](https://github.com/atebits/Words/) - A _huge_ dataset of words in four languages (English, German, Spanish and French) used in Atebits' game Letterpress.
+* [corpora](https://github.com/dariusk/corpora) - A collection of small corpuses of interesting data for the creation of bots and similar stuff.
+
+### Geographical Data
+
 * [Natural Earth Vector](https://github.com/nvkelso/natural-earth-vector) - A global, public domain map dataset available at three scales and featuring tightly integrated vector and raster data.
 * [countries](https://github.com/mledoze/countries) - World countries in JSON, CSV and XML.
-* [corpora](https://github.com/dariusk/corpora) - A collection of small corpuses of interesting data for the creation of bots and similar stuff.
 * [geonames](http://www.geonames.org/export/) contains over 10 million geographical names and consists of over 9 million unique features whereof 2.8 million populated places and 5.5 million alternate names.
 * [Geofabrik OSM Data Extracts](http://download.geofabrik.de/) on continent / country level.
 * [Mapzen Metro Extracts](https://mapzen.com/data/metro-extracts) - City-sized portions of OpenStreetMap, served weekly 
+
+### Lists of datasets
+
+* [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets)
 
 
 ## APIs
