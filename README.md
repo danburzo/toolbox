@@ -17,11 +17,13 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 ### Drawing, illustration
 
 * [chroma.js](https://github.com/gka/chroma.js) - JavaScript library for all kinds of color manipulations.
+* [TinyColor](https://github.com/bgrins/TinyColor) - Fast, small color manipulation and conversion for JavaScript. 
 * [paper.js](https://github.com/paperjs/paper.js) — The Swiss Army Knife of Vector Graphics Scripting.
 * [two.js](https://github.com/jonobr1/two.js) — A renderer agnostic two-dimensional drawing api for the web.
 * [opentype.js](https://github.com/nodebox/opentype.js) - Read and write OpenType fonts using JavaScript.
 * [snap.svg](https://github.com/adobe-webplatform/Snap.svg) - The JavaScript library for modern SVG graphics.
 * [p5.js](https://github.com/lmccart/p5.js) - A JS client-side library for creating graphic and interactive experiences, based on the core principles of Processing.
+* [rune.js](https://github.com/runemadsen/rune.js) - A JavaScript library for programming graphic design systems with SVG.
 
 ### Data visualization
 
@@ -51,6 +53,7 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 * [WebAudio](https://github.com/cwilso/WebAudio) - Web Audio API Playground.
 * [Gibberish](https://github.com/charlieroberts/Gibberish) - Fast, JavaScript DSP library that creates JIT optimized audio callbacks using code generation techniques
 * [Tone.js](https://github.com/Tonejs/Tone.js) - A Web Audio framework for making interactive music in the browser. 
+* [howler.js](https://github.com/goldfire/howler.js) - Javascript audio library for the modern web.
 
 # Interfaces
 
@@ -78,6 +81,7 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 * [pdfkit](https://github.com/devongovett/pdfkit) - A JavaScript PDF generation library for Node and the browser
 * [jsPDF](https://github.com/MrRio/jsPDF) - Generate PDF files in JavaScript. 
 * [epub.js](https://github.com/futurepress/epub.js/) - EPUBs in the browser.
+* [magicbook](https://github.com/magicbookproject/magicbook) - It aims to be the best free tool for creating print and digital books from a single source.
 
 ### Algorithms, Data structures
 
@@ -93,6 +97,7 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 ### Web scraping
 
 * [artoo](https://github.com/medialab/artoo) is a client-side scraper; you enable it on a page via a bookmarklet to quickly prototype scrapers in the console -- you can also make your own custom bookmarklets via Gulp.
+* [fathom](https://github.com/mozilla/fathom) - A framework for extracting meaning from web pages.
 
 ## Data sets
 
