@@ -14,7 +14,7 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 * [Lanczos.js](https://github.com/mudcube/Lanczos.js) - Lancszos image resampling.
 * [exif.js](https://github.com/jseidelin/exif-js) - JavaScript library for reading EXIF image metadata.
 
-### Drawing, illustration
+### Drawing, illustration, motion
 
 * [chroma.js](https://github.com/gka/chroma.js) - JavaScript library for all kinds of color manipulations.
 * [TinyColor](https://github.com/bgrins/TinyColor) - Fast, small color manipulation and conversion for JavaScript. 
@@ -24,6 +24,7 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 * [snap.svg](https://github.com/adobe-webplatform/Snap.svg) - The JavaScript library for modern SVG graphics.
 * [p5.js](https://github.com/lmccart/p5.js) - A JS client-side library for creating graphic and interactive experiences, based on the core principles of Processing.
 * [rune.js](https://github.com/runemadsen/rune.js) - A JavaScript library for programming graphic design systems with SVG.
+* [mojs](https://github.com/legomushroom/mojs) - motion graphics toolbelt for the web
 
 ### Data visualization
 
