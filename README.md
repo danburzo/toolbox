@@ -95,6 +95,7 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 * [Backbone](https://github.com/jashkenas/backbone) — Models, Views, Collections, Events, Router.
 * [Ractive](https://github.com/ractivejs/ractive) — Next-generation DOM manipulation.
 * [Bluebird](https://github.com/petkaantonov/bluebird) — Bluebird is a full featured promise library with unmatched performance.
+* [hackathon-starter](https://github.com/sahat/hackathon-starter) - A boilerplate for Node.js web applications
 
 ### Web scraping
 
