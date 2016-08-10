@@ -55,6 +55,7 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 * [Gibberish](https://github.com/charlieroberts/Gibberish) - Fast, JavaScript DSP library that creates JIT optimized audio callbacks using code generation techniques
 * [Tone.js](https://github.com/Tonejs/Tone.js) - A Web Audio framework for making interactive music in the browser. 
 * [howler.js](https://github.com/goldfire/howler.js) - Javascript audio library for the modern web.
+* [genish.js](https://github.com/charlieroberts/genish.js) - A library for generating optimized, single-sample audio callbacks in JavaScript. Inspired by gen~ in Max/MSP.
 
 # Interfaces
 
