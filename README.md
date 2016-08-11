@@ -34,7 +34,7 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 
 | Github repo | Description |
 | ----------- | ----------- |
-[d3](https://github.com/mbostock/d3) | A JavaScript visualization library for HTML and SVG. See also (https://github.com/wbkd/awesome-d3)[awesome-3d] for things you can do with it.
+[d3](https://github.com/mbostock/d3) | A JavaScript visualization library for HTML and SVG. See also [awesome-d3](https://github.com/wbkd/awesome-d3) for things you can do with it.
 [MetricsGraphics](https://github.com/mozilla/metrics-graphics) | A library optimized for concise, principled data graphics and layouts, built on top of d3
 [dagre](https://github.com/cpettitt/dagre) | Directed graph renderer for JavaScript (see also [dagre-d3](https://github.com/cpettitt/dagre-d3)).
 [WebCola](https://github.com/tgdwyer/WebCola) | JavaScript constraint-based graph layout.
