@@ -8,20 +8,18 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 
 ### Image processing
 
-| Github repo | Description |
-| ----------- | ----------- |
-[quaggaJS](https://github.com/serratus/quaggaJS) | An advanced barcode-scanner written in JavaScript.
-[omggif](https://github.com/deanm/omggif) | JavaScript implementation of a GIF 89a encoder and decoder.
-[Animated_GIF](https://github.com/sole/Animated_GIF) | Javascript library for creating animated GIFs (uses omggif).
-[Lanczos.js](https://github.com/mudcube/Lanczos.js) | Lancszos image resampling.
-[exif.js](https://github.com/jseidelin/exif-js) | JavaScript library for reading EXIF image metadata.
+| Github repo | Description | Useful for |
+| ----------- | ----------- | ---------- | 
+[quaggaJS](https://github.com/serratus/quaggaJS) | An advanced barcode-scanner written in JavaScript. | Reading real-life barcodes with a webcam or phone camera. See [JSBarcode](https://github.com/lindell/JsBarcode) for _generating_ barcodes.
+[omggif](https://github.com/deanm/omggif) | JavaScript implementation of a GIF 89a encoder and decoder. | Making GIFs. [Animated_GIF](https://github.com/sole/Animated_GIF), for example, builds on this.
+[exif.js](https://github.com/jseidelin/exif-js) | JavaScript library for reading EXIF image metadata. | Extracting information from JPEG files |
+[Lanczos.js](https://github.com/mudcube/Lanczos.js) | Lancszos image resampling. | Scaling images nicely |
 
 ### Drawing, illustration, motion
 
-| Github repo | Description |
-| ----------- | ----------- |
-[chroma.js](https://github.com/gka/chroma.js) | JavaScript library for all kinds of color manipulations.
-[TinyColor](https://github.com/bgrins/TinyColor) | Fast, small color manipulation and conversion for JavaScript. 
+| Github repo | Description | Useful for |
+| ----------- | ----------- | ---------- |
+[chroma.js](https://github.com/gka/chroma.js) | JavaScript library for all kinds of color manipulations. | Converting a color from and to any format, generate pleasing color palettes and color variations. See also [TinyColor](https://github.com/bgrins/TinyColor).
 [paper.js](https://github.com/paperjs/paper.js) | The Swiss Army Knife of Vector Graphics Scripting.
 [two.js](https://github.com/jonobr1/two.js) | A renderer agnostic two-dimensional drawing api for the web.
 [opentype.js](https://github.com/nodebox/opentype.js) | Read and write OpenType fonts using JavaScript.
