@@ -27,13 +27,15 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 [p5.js](https://github.com/lmccart/p5.js) | A JS client-side library for creating graphic and interactive experiences, based on the core principles of Processing.
 [rune.js](https://github.com/runemadsen/rune.js) | A JavaScript library for programming graphic design systems with SVG.
 [mojs](https://github.com/legomushroom/mojs) | motion graphics toolbelt for the web
+[ccapture.js](https://github.com/spite/ccapture.js/) | A library to capture canvas-based animations at a fixed framerate.
+[matter-js](https://github.com/liabru/matter-js) | A 2D rigid body physics engine for the web 
 
 ### Data visualization
 
 | Github repo | Description |
 | ----------- | ----------- |
-[d3](https://github.com/mbostock/d3) | A JavaScript visualization library for HTML and SVG.
-[MetricsGraphics](https://github.com/mozilla/metrics-graphics) | A library optimized for concise, principled data graphics and layouts.
+[d3](https://github.com/mbostock/d3) | A JavaScript visualization library for HTML and SVG. See also (https://github.com/wbkd/awesome-d3)[awesome-3d] for things you can do with it.
+[MetricsGraphics](https://github.com/mozilla/metrics-graphics) | A library optimized for concise, principled data graphics and layouts, built on top of d3
 [dagre](https://github.com/cpettitt/dagre) | Directed graph renderer for JavaScript (see also [dagre-d3](https://github.com/cpettitt/dagre-d3)).
 [WebCola](https://github.com/tgdwyer/WebCola) | JavaScript constraint-based graph layout.
 
@@ -67,6 +69,7 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 | ----------- | ----------- |
 [interface.js](https://github.com/charlieroberts/interface.js) | gui library for music / arts applications that works with touch, mouse and motion events.
 [Gibber](https://github.com/charlieroberts/Gibber) | An audiovisual live coding environment for the browser.
+[zingtouch](https://github.com/zingchart/zingtouch) | A JavaScript touch gesture detection library for the modern web
 
 ### Mapping
 
@@ -140,6 +143,7 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 [geonames](http://www.geonames.org/export/) | contains over 10 million geographical names and consists of over 9 million unique features whereof 2.8 million populated places and 5.5 million alternate names.
 [Geofabrik OSM Data Extracts](http://download.geofabrik.de/) | on continent/country level.
 [Mapzen Metro Extracts](https://mapzen.com/data/metro-extracts) | City-sized portions of OpenStreetMap, served weekly 
+[all-the-cities](https://github.com/zeke/all-the-cities) |  All the 138,398 cities of the world with a population of at least 1000 inhabitants, in a big JSON array.
 
 ### Lists of datasets
 
