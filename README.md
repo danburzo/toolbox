@@ -165,6 +165,8 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 | ---- | ----------- |
 [fonttools](https://github.com/behdad/fonttools/) | does TTF/OTF conversion to and from XML. This allows you to edit fonts (e.g. metadata) in plain-text and then rebuild them.
 [Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) | helps you filter & merge OpenStreetMap data files (XML, PBF).
+[textkit](https://github.com/learntextvis/textkit) | Command line tool for manipulating and analyzing text 
+[electron-pdf](https://github.com/fraserxu/electron-pdf) |  A command line tool to generate PDF from URL, HTML or Markdown files. 
 
 ## Online tools
 
