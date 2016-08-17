@@ -46,6 +46,7 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 [three.js](https://github.com/mrdoob/three.js/) | JavaScript 3D library.
 [pre3d](https://github.com/deanm/pre3d/) | JavaScript 3d rendering engine.
 [aframe](https://aframe.io/) | Building blocks for the VR Web.
+[regl](https://github.com/mikolalysenko/regl) | Functional WebGL
 
 ### Audio
 
