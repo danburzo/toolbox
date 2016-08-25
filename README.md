@@ -152,6 +152,12 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 | ----------- | ----------- |
 [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets) | 
 
+### Misc
+
+| Github repo | Description |
+| ----------- | ----------- |
+| [whiskyverse](https://github.com/Jonty/whiskyverse/) | JSON file containing Scotch Malt Whisky Society bottles |
+
 
 ## APIs
 
@@ -159,6 +165,8 @@ It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). C
 | ---- | ----------- |
 [Wordnik](http://developer.wordnik.com/) | The Wordnik API lets you request definitions, example sentences, spelling suggestions, related words like synonyms and antonyms, phrases containing a given word, word autocompletion, random words, words of the day, and much more.
 [Echo Nest](http://developer.echonest.com/) | The Echo Nest offers an incredible array of music data and services for developers to build amazing apps and experiences. See also [echonest/remix](https://github.com/echonest/remix).
+[Openapi](http://openapi.ro/) | (Romanian) Provides information about companies, IP geolocation, validation for CIF / CNP / IBAN / BIC, exchange rate, postal codes, singular and plural forms of Romanian words
+
 
 ## Command-Line Tools
 
