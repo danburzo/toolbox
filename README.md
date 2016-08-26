@@ -2,7 +2,7 @@
 
 This is a collection of tricks, tools, libraries, APIs and data sources for creative projects. It's a reference as well as a compendium of things you can do in the browser and the command line.
 
-It's insipired by [javierarce/toolbox](https://github.com/javierarce/toolbox). Contributions are welcome via [issues](https://github.com/danburzo/toolbox/issues) or [pull requests](https://github.com/danburzo/toolbox/pulls).
+It's inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox). Contributions are welcome via [issues](https://github.com/danburzo/toolbox/issues) or [pull requests](https://github.com/danburzo/toolbox/pulls).
 
 ## JavaScript libraries
 
