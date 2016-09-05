@@ -38,6 +38,7 @@ It's inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox). Co
 [MetricsGraphics](https://github.com/mozilla/metrics-graphics) | A library optimized for concise, principled data graphics and layouts, built on top of d3
 [dagre](https://github.com/cpettitt/dagre) | Directed graph renderer for JavaScript (see also [dagre-d3](https://github.com/cpettitt/dagre-d3)).
 [WebCola](https://github.com/tgdwyer/WebCola) | JavaScript constraint-based graph layout.
+[plottable](https://github.com/palantir/plottable) | A library of modular chart components built on D3
 
 ### 3D, Virtual Reality
 
