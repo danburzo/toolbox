@@ -189,35 +189,31 @@ It's inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox). Co
 
 ## Miscellaneous tips & tricks
 
-#### Start a server for a folder
+### Start a server for a folder
 
-OS X and Linux come with Python preinstalled. In your project folder, run `python -m SimpleHTTPServer`. This makes it available at [`http://localhost:8000`](http://localhost:8000).
+Run `python -m SimpleHTTPServer` in your project folder to make it available at [`http://localhost:8000`](http://localhost:8000).
 
-#### Fetch a file from the web
+__Note:__ The syntax above is for the Python 2.x that comes preinstalled with macOS and Linux. The equivalent syntax for Python 3 is `python -m http.server`. 
 
-If you want to get a data file from the web in the command line, `wget` is the simplest:
+### Fetch a file from the web
+
+To fetch a file from the web with the command line, using `wget` is straightforward:
 
 ```shell
 wget http://download.geofabrik.de/europe/romania-latest.osm.pbf
 ```
 
-(On OS X, you can install `wget` with Homebrew: `brew install wget`)
+(On macOS, you can install `wget` with Homebrew: `brew install wget`)
 
-To fetch a file using Node, a minimal example:
+Or, fetching a file in Node.js:
 
 ```js
-var http = require('http');
-var fs = require('fs');
-
-var url = 'http://download.geofabrik.de/europe/romania-latest.osm.pbf';
-var output = 'romania-latest.osm.pbf';
-
-http.get(url, function(res) {
-	res.pipe(fs.createWriteStream(output));
+require('http').get('http://download.geofabrik.de/europe/romania-latest.osm.pbf', function(response) {
+    response.pipe(require('fs').createWriteStream('romania-latest.osm.pbf'));
 });
 ```
 
-#### Make a S3 bucket publicly available
+### Make a S3 bucket publicly available
 
 To use a S3 bucket to keep a bunch of files and make them publicly available, you need to make a __bucket policy__. This is under _Permissions_ section on the _Properties_ tab for your bucket. Paste this into the bucket policy (`myBucketName` should be the name of your bucket):
 
@@ -238,7 +234,7 @@ To use a S3 bucket to keep a bunch of files and make them publicly available, yo
 
 All the files inside will typically be available at `http://myBucketName.s3.amazonaws.com/path/to/file` but you can grab the exact URL from the _Static Website Hosting_ section in the _Properties_ tab.
 
-This is super-useful for hosting video files, since S3 supports __partial content requests__ which is needed to loop `<video>` on your web pages.
+__Extra credit:__ This is super-useful for hosting video files, since S3 supports __partial content requests__ which is needed to loop `<video>` on your web pages.
 
 ### Wget for website mirroring / scraping
 
@@ -272,31 +268,5 @@ The URLs can be specified in a separate file `list-of-URLs.txt`, with one URL pe
 
 ```
 wget ‐‐input list-of-URLs.txt
-```
-
-### Quick project scaffolding
-
-In the command line, you can use the `mkdir` and `touch` utilities to quickly create a bunch of folders and files for your project:
-
-```
-cd my-project
-mkdir js css img test
-touch .gitignore index.html README.md CHANGELOG.md css/style.css js/app.js
-```
-
-This will create the structure:
-
-```
-- my-project
-  - css
-    - style.css
-  - js
-    - app.js
-  - img
-  - test
-  .gitignore
-  index.html
-  README.md
-  CHANGELOG.md
 ```
 
