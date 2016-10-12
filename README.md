@@ -8,12 +8,29 @@ It's inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox). Co
 
 ### Image processing
 
-| Github repo | Description | Useful for |
-| ----------- | ----------- | ---------- | 
-[quaggaJS](https://github.com/serratus/quaggaJS) | An advanced barcode-scanner written in JavaScript. | Reading real-life barcodes with a webcam or phone camera. See [JSBarcode](https://github.com/lindell/JsBarcode) for _generating_ barcodes.
-[omggif](https://github.com/deanm/omggif) | JavaScript implementation of a GIF 89a encoder and decoder. | Making GIFs. [Animated_GIF](https://github.com/sole/Animated_GIF), for example, builds on this.
-[exif.js](https://github.com/jseidelin/exif-js) | JavaScript library for reading EXIF image metadata. | Extracting information from JPEG files |
-[Lanczos.js](https://github.com/mudcube/Lanczos.js) | Lancszos image resampling. | Scaling images nicely |
+#### [quaggaJS](https://github.com/serratus/quaggaJS)
+
+> __QuaggaJS is a barcode-scanner entirely written in JavaScript__ supporting real-time localization and decoding of various types of barcodes such as EAN, CODE 128, CODE 39, EAN 8, UPC-A, UPC-C, I2of5 and CODABAR. The library is also capable of using `getUserMedia` to get direct access to the user's camera stream. Although the code relies on heavy image- processing even recent smartphones are capable of locating and decoding barcodes in real-time.
+ 
+For reading barcodes with a webcam or phone camera. See also __[JSBarcode](https://github.com/lindell/JsBarcode)__ for _generating_ barcodes.
+
+#### [omggif](https://github.com/deanm/omggif)
+
+> JavaScript implementation of a GIF 89a encoder and decoder.
+
+For making GIFs. [Animated_GIF](https://github.com/sole/Animated_GIF), for example, builds on top of this library.
+
+#### [exif.js](https://github.com/jseidelin/exif-js)
+
+> JavaScript library for reading EXIF image metadata.
+
+Extracting information from JPEG files.
+
+#### [Lanczos.js](https://github.com/mudcube/Lanczos.js)
+
+> Lancszos image resampling.
+
+This is for resizing images nicely in the browser.
 
 ### Drawing, illustration, motion
 
@@ -120,12 +137,14 @@ It's inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox). Co
 [Bluebird](https://github.com/petkaantonov/bluebird) | Bluebird is a full featured promise library with unmatched performance.
 [hackathon-starter](https://github.com/sahat/hackathon-starter) | A boilerplate for Node.js web applications
 
-### Web scraping
+### Web scraping, data extraction
 
-| Github repo | Description |
-| ----------- | ----------- |
-[artoo](https://github.com/medialab/artoo) | is a client-side scraper; you enable it on a page via a bookmarklet to quickly prototype scrapers in the console -- you can also make your own custom bookmarklets via Gulp.
-[fathom](https://github.com/mozilla/fathom) | A framework for extracting meaning from web pages.
+| Github repo | Description | Notes |
+| ----------- | ----------- | ----- |
+[artoo](https://github.com/medialab/artoo) | artoo.js is a piece of JavaScript code meant to be run in your browser's console to provide you with some scraping utilities. | This allows you to create custom bookmarklets to scrape a web page from your browser; I could see this being used in places where on a server you'd have to jump through some hoops, e.g. getting your Facebook saved links
+[x-ray](https://github.com/lapwinglabs/x-ray) | The next web scraper. See through the `<html>` noise. | From the maker of [cheerio](https://github.com/cheeriojs/cheerio), and built on top of it, x-ray gives you a terse, fluent API to scrape and navigate pages.
+[fathom](https://github.com/mozilla/fathom) | A framework for extracting meaning from web pages. | Seems to be still a work in progress, but it will ultimately be a tool for understanding where some particular type of content is on a page: "Where is the body? The title? Is this a "next page" button? Is this a comment form, and are there comments here? By better understanding the parts of a page, we can improve our understanding of how a user interacts with it." ([source](https://wiki.mozilla.org/Context_Graph#Fathom))
+[readability](https://github.com/mozilla/readability) | A standalone version of the readability library used for Firefox Reader View. | Extract the main content from a web page.
 
 ## Data sets
 
@@ -177,6 +196,7 @@ It's inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox). Co
 [Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) | helps you filter & merge OpenStreetMap data files (XML, PBF).
 [textkit](https://github.com/learntextvis/textkit) | Command line tool for manipulating and analyzing text 
 [electron-pdf](https://github.com/fraserxu/electron-pdf) |  A command line tool to generate PDF from URL, HTML or Markdown files. 
+[unproject_text](https://github.com/mzucker/unproject_text) | A Python script to adjust the perspective for scanned/photographed pages of texts, making it easier to run Optical Character Recognition on it.
 
 ## Online tools
 
