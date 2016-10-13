@@ -342,6 +342,10 @@ On continent/country level.
 
 > The Wordnik API lets you request definitions, example sentences, spelling suggestions, related words like synonyms and antonyms, phrases containing a given word, word autocompletion, random words, words of the day, and much more.
 
+#### [poetrydb](https://github.com/thundercomb/poetrydb) ([website](http://poetrydb.org))
+
+> PoetryDB is an API for internet poets.
+
 #### [Echo Nest](http://developer.echonest.com/) 
 
 > The Echo Nest offers an incredible array of music data and services for developers to build amazing apps and experiences. See also [echonest/remix](https://github.com/echonest/remix).
