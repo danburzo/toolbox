@@ -6,7 +6,7 @@ It's inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox). Co
 
 ## JavaScript libraries
 
-### Image processing
+### Image processing, optical character recognition (OCR)
 
 #### [quaggaJS](https://github.com/serratus/quaggaJS)
 
@@ -31,6 +31,11 @@ Extracting information from JPEG files.
 > Lancszos image resampling.
 
 This is for resizing images nicely in the browser.
+
+#### [tesseract.js](https://github.com/naptha/tesseract.js)
+
+> Tesseract.js is a javascript library that gets words in almost any language out of images.
+
 
 ### Drawing, illustration, motion
 
