@@ -4,6 +4,37 @@ This is a collection of tricks, tools, libraries, APIs and data sources for crea
 
 It's inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox). Contributions are welcome via [issues](https://github.com/danburzo/toolbox/issues) or [pull requests](https://github.com/danburzo/toolbox/pulls).
 
+Although it's a list, this one is different from [`awesome-*`](https://github.com/sindresorhus/awesome) lists in that I try not too many libraries with overlapping purposes but rather what I consider to be excellent ones: tools that are easy to install, elegant to work with, and are well documented, plus some quirky outliers.
+
+## Table of Contents
+
+* [JavaScript libraries](#javascript-libraries)
+	* [Image processing, OCR](#image-processing-optical-character-recognition-ocr)
+	* [Drawing, illustration, motion](#drawing-illustration-motion)
+	* [Data visualization](#data-visualization)
+	* [3D, Virtual Reality](#3d-vr)
+	* [Audio](#audio)
+	* [User Interfaces](#user-interfaces)
+	* [Mapping](#mapping)
+	* [Gamemaking](#gamemaking)
+	* [Working with documents](#working-with-documents)
+	* [Algorithms, data structures](#algorithms-data-structures)
+	* [Sensible app architecture](#sensible-app-architecture)
+	* [Web scraping, data extraction](#web-scraping-data-extraction)
+* [Data sets](#data-sets)
+	* [Language](#language)
+	* [Geographical data](#geographical-data)
+	* [Lists of datasets](#lists-of-datasets)
+	* [Miscellaneous datasets](#miscellaneous-datasets)
+* [APIs](#apis)
+* [Command-line tools](#command-line-tools)
+* [Online tools](#online-tools)
+* [Miscellaneous tips & tricks](#miscellaneous-tips--tricks)
+	* [Start a server for a folder](#start-a-server-for-a-folder)
+	* [Fetch a file from the web](#fetch-a-file-from-the-web)
+	* [Make an S3 bucket publicly available](#make-an-s3-bucket-publicly-available) 
+	* [`wget` for website mirroring / scraping](#wget-for-website-mirroring--scraping)
+
 ## JavaScript libraries
 
 ### Image processing, optical character recognition (OCR)
@@ -329,7 +360,7 @@ On continent/country level.
 
 #### [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets)
 
-### Misc
+### Miscellaneous datasets
 
 #### [whiskyverse](https://github.com/Jonty/whiskyverse/) 
 
@@ -427,7 +458,7 @@ require('http').get('http://download.geofabrik.de/europe/romania-latest.osm.pbf'
 });
 ```
 
-### Make a S3 bucket publicly available
+### Make an S3 bucket publicly available
 
 To use a S3 bucket to keep a bunch of files and make them publicly available, you need to make a __bucket policy__. This is under _Permissions_ section on the _Properties_ tab for your bucket. Paste this into the bucket policy (`myBucketName` should be the name of your bucket):
 
@@ -450,7 +481,7 @@ All the files inside will typically be available at `http://myBucketName.s3.amaz
 
 __Extra credit:__ This is super-useful for hosting video files, since S3 supports __partial content requests__ which is needed to loop `<video>` on your web pages.
 
-### Wget for website mirroring / scraping
+### `wget` for website mirroring / scraping
 
 Here are some useful tricks with `wget`. [More of them here](http://www.labnol.org/software/wget-command-examples/28750/).
 
