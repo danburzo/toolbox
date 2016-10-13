@@ -28,7 +28,6 @@ Thanks for stopping by. ✌️
 * [Data sets](#data-sets)
 	* [Language](#language)
 	* [Geographical data](#geographical-data)
-	* [Lists of datasets](#lists-of-datasets)
 	* [Miscellaneous datasets](#miscellaneous-datasets)
 * [APIs](#apis)
 * [Command-line tools](#command-line-tools)
@@ -123,11 +122,7 @@ Converting a color from and to any format, generate pleasing color palettes and 
 
 > A JavaScript visualization library for HTML and SVG.
 
-This is the tool of choice for any data visualization project.
-
-To draw standard charts with D3, take a look at [MetricsGraphics](https://github.com/mozilla/metrics-graphics) or [plottable](https://github.com/palantir/plottable), both of which are built on top of it.
-
-[awesome-d3](https://github.com/wbkd/awesome-d3) is useful for learning what other things you can do with D3.
+This is the tool of choice for any data visualization project. To draw standard charts with D3, take a look at [MetricsGraphics](https://github.com/mozilla/metrics-graphics) or [plottable](https://github.com/palantir/plottable), both of which are built on top of it. [awesome-d3](https://github.com/wbkd/awesome-d3) is useful for learning what other things you can do with D3.
 
 #### [cytoscape.js](https://github.com/cytoscape/cytoscape.js) ([website](http://js.cytoscape.org/))
 
@@ -141,17 +136,15 @@ Built on top of [graphlib](https://github.com/cpettitt/graphlib) by the same aut
 
 ### 3D, VR
 
-#### [three.js](https://github.com/mrdoob/three.js/) 
+#### [three.js](https://github.com/mrdoob/three.js/) ([website](https://threejs.org/))
 
 > JavaScript 3D library.
 
-#### [pre3d](https://github.com/deanm/pre3d/) 
+Much like D3 is the tool of choice for data visualization, three.js is the established library for working in 3D. See also [pre3d](https://github.com/deanm/pre3d/) (although it hasn't been worked on in ages).
 
-> JavaScript 3d rendering engine.
+#### [regl](https://github.com/mikolalysenko/regl) ([website](http://regl.party/))
 
-#### [regl](https://github.com/mikolalysenko/regl) 
-
-> Functional WebGL
+> Fast functional WebGL. 
 
 #### [aframe](https://github.com/aframevr/aframe/) ([website](https://aframe.io/))
 
@@ -358,11 +351,9 @@ On continent/country level.
 
 > All the 138,398 cities of the world with a population of at least 1000 inhabitants, in a big JSON array.
 
-### Lists of datasets
+### Miscellaneous datasets
 
 #### [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets)
-
-### Miscellaneous datasets
 
 #### [whiskyverse](https://github.com/Jonty/whiskyverse/) 
 
