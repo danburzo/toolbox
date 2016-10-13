@@ -375,6 +375,10 @@ Helps you filter & merge OpenStreetMap data files (XML, PBF).
 
 A Python script to adjust the perspective for scanned/photographed pages of texts, making it easier to run Optical Character Recognition on it.
 
+#### [page_dewarp](https://github.com/mzucker/page_dewarp) ([article](https://mzucker.github.io/2016/08/15/page-dewarping.html))
+
+> Page dewarping and thresholding using a "cubic sheet" model.
+
 ## Online tools
 
 #### [geojson.io](http://geojson.io) 
