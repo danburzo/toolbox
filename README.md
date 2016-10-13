@@ -369,7 +369,9 @@ Helps you filter & merge OpenStreetMap data files (XML, PBF).
 
 > A command line tool to generate PDF from URL, HTML or Markdown files. 
 
-#### [unproject_text](https://github.com/mzucker/unproject_text)
+#### [unproject_text](https://github.com/mzucker/unproject_text) ([article](https://mzucker.github.io/2016/10/11/unprojecting-text-with-ellipses.html))
+
+> Perspective recovery of text using transformed ellipses.
 
 A Python script to adjust the perspective for scanned/photographed pages of texts, making it easier to run Optical Character Recognition on it.
 
