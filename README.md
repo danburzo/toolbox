@@ -2,9 +2,13 @@
 
 This is a collection of tricks, tools, libraries, APIs and data sources for creative projects. It's a reference as well as a compendium of things you can do in the browser and the command line.
 
-It's inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox). Contributions are welcome via [issues](https://github.com/danburzo/toolbox/issues) or [pull requests](https://github.com/danburzo/toolbox/pulls).
+Although this is a list of mostly Github-hosted tools, it's different from [`awesome-*`](https://github.com/sindresorhus/awesome) lists in that I try to avoid having several things with overlapping purposes and only include what I consider to be the excellent ones: tools that are easy to install, elegant to work with, and well documented &mdash; plus some quirky outliers for good fun.
 
-Although it's a list, this one is different from [`awesome-*`](https://github.com/sindresorhus/awesome) lists in that I try not too many libraries with overlapping purposes but rather what I consider to be excellent ones: tools that are easy to install, elegant to work with, and are well documented, plus some quirky outliers.
+I've been inspired to keep this list, and name it as such, by [javierarce/toolbox](https://github.com/javierarce/toolbox), which serves a similar purpose and contains great resources that I recommend you check out. 
+
+Contributions to this list are welcome via [issues](https://github.com/danburzo/toolbox/issues) and [pull requests](https://github.com/danburzo/toolbox/pulls) &mdash; I'm always looking for new ideas!
+
+Thanks for stopping by. ✌️
 
 ## Table of Contents
 
