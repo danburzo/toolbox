@@ -179,6 +179,11 @@ Library behind [Gibber](https://github.com/charlieroberts/Gibber) ([website](htt
 
 > howler.js is an audio library for the modern web. It defaults to Web Audio API and falls back to HTML5 Audio. This makes working with audio in JavaScript easy and reliable across all platforms.
 
+#### Dig deeper
+
+* [awesome-webaudio](https://github.com/notthetup/awesome-webaudio)
+* [web-audio-resources](https://github.com/alemangui/web-audio-resources)
+
 ### User Interfaces
 
 #### [zingtouch](https://github.com/zingchart/zingtouch) 
