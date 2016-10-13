@@ -121,25 +121,23 @@ Converting a color from and to any format, generate pleasing color palettes and 
 
 #### [d3](https://github.com/mbostock/d3) 
 
-> A JavaScript visualization library for HTML and SVG. See also [awesome-d3](https://github.com/wbkd/awesome-d3) for things you can do with it.
+> A JavaScript visualization library for HTML and SVG.
 
-#### [MetricsGraphics](https://github.com/mozilla/metrics-graphics) 
+This is the tool of choice for any data visualization project.
 
-> A library optimized for concise, principled data graphics and layouts, built on top of d3
+To draw standard charts with D3, take a look at [MetricsGraphics](https://github.com/mozilla/metrics-graphics) or [plottable](https://github.com/palantir/plottable), both of which are built on top of it.
+
+[awesome-d3](https://github.com/wbkd/awesome-d3) is useful for learning what other things you can do with D3.
+
+#### [cytoscape.js](https://github.com/cytoscape/cytoscape.js) ([website](http://js.cytoscape.org/))
+
+> Graph theory (a.k.a. network) library for analysis and visualisation.
 
 #### [dagre](https://github.com/cpettitt/dagre) 
 
 > Directed graph renderer for JavaScript 
 
-See also [dagre-d3](https://github.com/cpettitt/dagre-d3).
-
-#### [WebCola](https://github.com/tgdwyer/WebCola) 
-
-> JavaScript constraint-based graph layout.
-
-#### [plottable](https://github.com/palantir/plottable) 
-
-> A library of modular chart components built on D3
+Built on top of [graphlib](https://github.com/cpettitt/graphlib) by the same author, `dagre` helps you build directed graphs that you can then plug into D3 or cytoscape. See [the excellent wiki](https://github.com/cpettitt/dagre/wiki) for details.
 
 ### 3D, VR
 
