@@ -25,6 +25,7 @@ Thanks for stopping by. ✌️
 	* [Algorithms, data structures](#algorithms-data-structures)
 	* [Sensible app architecture](#sensible-app-architecture)
 	* [Web scraping, data extraction](#web-scraping-data-extraction)
+	* [Language processing](#language-processing)
 * [Data sets](#data-sets)
 	* [Language](#language)
 	* [Geographical data](#geographical-data)
@@ -312,6 +313,36 @@ Seems to be still a work in progress, but it will ultimately be a tool for under
 > A standalone version of the readability library used for Firefox Reader View. 
 
 Extract the main content from a web page.
+
+### Language processing
+
+#### [natural](https://github.com/NaturalNode/natural)
+
+> "Natural" is a general natural language facility for nodejs. Tokenizing, stemming, classification, phonetics, tf-idf, WordNet, string similarity, and some inflections are currently supported. At the moment, most of the algorithms are English-specific.
+
+#### [franc](https://github.com/wooorm/franc) ([website](http://wooorm.com/franc/))
+
+> Detect the language of text.
+
+`franc` can tell in which of the 339 supported languages a piece of text is written.
+
+#### [retext](https://github.com/wooorm/retext)
+
+>  Natural language processor powered by plugins.
+
+#### [lunr.js](https://github.com/olivernn/lunr.js) ([website](http://lunrjs.com/))
+
+> Simple full-text search in your browser
+
+Since lunr.js only supports English by default, supplement it with [lunr-languages](https://github.com/MihaiValentin/lunr-languages) which is a collection of languages stemmers and stopwords.
+
+#### [nlp_compromise](https://github.com/nlp-compromise/nlp_compromise) 
+
+> It's a handy, and not overly-fancy tool for understanding, changing, and playing with English.
+
+#### [snowball-js](https://github.com/fortnightlabs/snowball-js)
+
+> javascript implementation of the popular snowball word stemming nlp algorithm
 
 ## Data sets
 
