@@ -383,6 +383,12 @@ A Python script to adjust the perspective for scanned/photographed pages of text
 
 > Page dewarping and thresholding using a "cubic sheet" model.
 
+#### [pup](https://github.com/ericchiang/pup)
+
+> pup is a command line tool for processing HTML. It reads from stdin, prints to stdout, and allows the user to filter parts of the page using CSS selectors.
+
+Should work great with `wget` for web page data extraction.
+
 ## Online tools
 
 #### [geojson.io](http://geojson.io) 
