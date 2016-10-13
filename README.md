@@ -153,59 +153,33 @@ Much like D3 is the tool of choice for data visualization, three.js is the estab
 
 ### Audio
 
-#### [dancer.js](https://github.com/jsantell/dancer.js) ([website](http://jsantell.github.io/dancer.js/))
-
-> dancer.js is a high-level audio API, usable with both Mozilla's Audio Data API and Web Audio API with flash fallback, designed to make sweet visualizations.
-
-#### [timbre.js](https://github.com/mohayonao/timbre.js/) 
-
-> JavaScript library for objective sound programming 
-
-#### [audio-tags](https://github.com/sole/audio-tags) 
-
-> An experimental thingie bridging Web Components with Web Audio.
-
-#### [MIDI.js](https://github.com/mudcube/MIDI.js) 
-
-> Making life easy to create a MIDI-app on the web.
-
 #### [tuna](https://github.com/Dinahmoe/tuna) 
 
 > An audio effects library for Web Audio.
-
-#### [PitchDetect](https://github.com/cwilso/PitchDetect) 
-
-> Pitch detection in Web Audio using autocorrelation.
-
-#### [WebAudio](https://github.com/cwilso/WebAudio) 
-
-> Web Audio API Playground.
-
-#### [Gibberish](https://github.com/charlieroberts/Gibberish) 
-
-> Fast, JavaScript DSP library that creates JIT optimized audio callbacks using code generation techniques
 
 #### [Tone.js](https://github.com/Tonejs/Tone.js) 
 
 > A Web Audio framework for making interactive music in the browser. 
 
-#### [howler.js](https://github.com/goldfire/howler.js) 
+#### [MIDI.js](https://github.com/mudcube/MIDI.js) 
 
-> Javascript audio library for the modern web.
+> Making life easy to create a MIDI-app on the web.
 
-#### [genish.js](https://github.com/charlieroberts/genish.js) 
+#### [Gibberish](https://github.com/charlieroberts/Gibberish) ([website](http://www.charlie-roberts.com/gibberish/))
+
+> Fast, JavaScript DSP library that creates JIT optimized audio callbacks using code generation techniques
+
+Library behind [Gibber](https://github.com/charlieroberts/Gibber) ([website](http://gibber.mat.ucsb.edu/)) &mdash; an audiovisual live coding environment for the browser. See also [interface.js](https://github.com/charlieroberts/interface.js) ([website](http://www.charlie-roberts.com/interface/)) by the same author &mdash; a GUI library for music / arts applications that works with touch, mouse and motion events. 
+
+#### [genish.js](https://github.com/charlieroberts/genish.js) ([website](http://www.charlie-roberts.com/genish/))
 
 > A library for generating optimized, single-sample audio callbacks in JavaScript. Inspired by gen~ in Max/MSP.
 
+#### [howler.js](https://github.com/goldfire/howler.js) ([website](https://howlerjs.com/))
+
+> howler.js is an audio library for the modern web. It defaults to Web Audio API and falls back to HTML5 Audio. This makes working with audio in JavaScript easy and reliable across all platforms.
+
 ### User Interfaces
-
-#### [interface.js](https://github.com/charlieroberts/interface.js) 
-
-> gui library for music / arts applications that works with touch, mouse and motion events.
-
-#### [Gibber](https://github.com/charlieroberts/Gibber) 
-
-> An audiovisual live coding environment for the browser.
 
 #### [zingtouch](https://github.com/zingchart/zingtouch) 
 
