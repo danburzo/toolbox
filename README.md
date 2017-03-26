@@ -153,6 +153,10 @@ Much like D3 is the tool of choice for data visualization, three.js is the estab
 
 ### Audio
 
+#### [paulstretch.js](https://github.com/sebpiq/paulstretch.js)
+
+> This is a JavaScript implementation - with a few improvements - of Paul's Extreme Sound Stretch algorithm (Paulstretch) by Nasca Octavian PAUL.
+
 #### [tuna](https://github.com/Dinahmoe/tuna) 
 
 > An audio effects library for Web Audio.
