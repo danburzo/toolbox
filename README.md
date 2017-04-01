@@ -169,6 +169,10 @@ Much like D3 is the tool of choice for data visualization, three.js is the estab
 
 > Making life easy to create a MIDI-app on the web.
 
+#### [teoria](https://github.com/saebekassebil/teoria)
+
+> Javascript taught Music Theory
+
 #### [Gibberish](https://github.com/charlieroberts/Gibberish) ([website](http://www.charlie-roberts.com/gibberish/))
 
 > Fast, JavaScript DSP library that creates JIT optimized audio callbacks using code generation techniques
