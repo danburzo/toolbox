@@ -118,7 +118,6 @@ Converting a color from and to any format, generate pleasing color palettes and 
 
 ### Data visualization
 
-
 #### [d3](https://github.com/mbostock/d3) 
 
 > A JavaScript visualization library for HTML and SVG.
@@ -173,6 +172,14 @@ Much like D3 is the tool of choice for data visualization, three.js is the estab
 
 > Javascript taught Music Theory
 
+#### [WebMidi.js](https://github.com/cotejp/webmidi)
+
+>  WebMidi.js helps you tame the Web MIDI API. Send and receive MIDI messages with ease. Control instruments with user-friendly functions (playNote, sendPitchBend, etc.). React to MIDI input with simple event listeners (noteon, pitchbend, controlchange, etc.).
+
+#### [NexusUI](https://github.com/lsu-emdm/nexusUI) ([website](http://www.nexusosc.com/)) 
+
+> NexusUI is a JavaScript toolkit for easily designing musical interfaces in web browsers and mobile apps, with emphasis on rapid prototyping and integration with web audio.
+
 #### [Gibberish](https://github.com/charlieroberts/Gibberish) ([website](http://www.charlie-roberts.com/gibberish/))
 
 > Fast, JavaScript DSP library that creates JIT optimized audio callbacks using code generation techniques
@@ -187,6 +194,12 @@ Library behind [Gibber](https://github.com/charlieroberts/Gibber) ([website](htt
 
 > howler.js is an audio library for the modern web. It defaults to Web Audio API and falls back to HTML5 Audio. This makes working with audio in JavaScript easy and reliable across all platforms.
 
+#### Utilities
+
+__[StartAudioContext](https://github.com/tambien/StartAudioContext)__ starts the Web Audio API's AudioContext on an explicit user action.
+
+__[MediaStreamRecorder](https://github.com/streamproc/MediaStreamRecorder)__ ([website](https://www.webrtc-experiment.com/msr/)) — Cross-browser audio/video/screen recording. It supports Chrome, Firefox, Opera and Microsoft Edge. It even works on Android browsers. It follows latest MediaRecorder API standards and provides similar APIs. 
+
 #### Dig deeper
 
 * [awesome-webaudio](https://github.com/notthetup/awesome-webaudio)
@@ -197,6 +210,10 @@ Library behind [Gibber](https://github.com/charlieroberts/Gibber) ([website](htt
 #### [zingtouch](https://github.com/zingchart/zingtouch) 
 
 > A JavaScript touch gesture detection library for the modern web
+
+#### [shake.js](https://github.com/alexgibson/shake.js/) ([website](https://alexgibson.github.io/shake.js/))
+
+> A custom 'shake' event plugin for mobile web browsers using device accelerometer. 
 
 ### Mapping
 
