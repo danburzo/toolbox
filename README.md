@@ -71,6 +71,9 @@ This is for resizing images nicely in the browser.
 
 > Tesseract.js is a javascript library that gets words in almost any language out of images.
 
+#### [sharp](https://github.com/lovell/sharp) ([website](http://sharp.dimens.io))
+
+> High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP and TIFF images. Uses the libvips library.
 
 ### Drawing, illustration, motion
 
