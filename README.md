@@ -276,11 +276,6 @@ __[MediaStreamRecorder](https://github.com/streamproc/MediaStreamRecorder)__ ([w
 
 ### Sensible app architecture
 
-
-#### [backbone](https://github.com/jashkenas/backbone) ([website](http://backbonejs.org/))
-
-> Give your JS App some Backbone with Models, Views, Collections, and Events.
-
 #### [vue](https://github.com/vuejs/vue) ([website](http://vuejs.org/))
 
 > Simple yet powerful library for building modern web interfaces.
