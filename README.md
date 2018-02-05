@@ -125,7 +125,17 @@ Converting a color from and to any format, generate pleasing color palettes and 
 
 > A JavaScript visualization library for HTML and SVG.
 
-This is the tool of choice for any data visualization project. To draw standard charts with D3, take a look at [MetricsGraphics](https://github.com/mozilla/metrics-graphics), [plottable](https://github.com/palantir/plottable), or [d3plus](https://github.com/alexandersimoes/d3plus), all of which are built on top of it. [awesome-d3](https://github.com/wbkd/awesome-d3) is useful for learning what other things you can do with D3.
+The tool of choice for any data visualization project. 
+
+To draw standard charts with D3, take a look at some libraries built on top of it:
+
+* [MetricsGraphics](https://github.com/mozilla/metrics-graphics)
+* [plottable](https://github.com/palantir/plottable)
+* [d3plus](https://github.com/alexandersimoes/d3plus)
+* [victory](https://github.com/FormidableLabs/victory)
+* [semiotic](https://github.com/emeeks/semiotic)
+
+__Further reading:__ [awesome-d3](https://github.com/wbkd/awesome-d3) is useful for learning what other things you can do with D3.
 
 #### [cytoscape.js](https://github.com/cytoscape/cytoscape.js) ([website](http://js.cytoscape.org/))
 
@@ -136,6 +146,8 @@ This is the tool of choice for any data visualization project. To draw standard 
 > Directed graph renderer for JavaScript 
 
 Built on top of [graphlib](https://github.com/cpettitt/graphlib) by the same author, `dagre` helps you build directed graphs that you can then plug into D3 or cytoscape. See [the excellent wiki](https://github.com/cpettitt/dagre/wiki) for details.
+
+
 
 ### 3D, VR
 
@@ -276,11 +288,15 @@ __[MediaStreamRecorder](https://github.com/streamproc/MediaStreamRecorder)__ ([w
 
 ### Sensible app architecture
 
+#### [react](https://github.com/facebook/react) ([website](https://reactjs.org/))
+
+> A declarative, efficient, and flexible JavaScript library for building user interfaces.
+
 #### [vue](https://github.com/vuejs/vue) ([website](http://vuejs.org/))
 
 > Simple yet powerful library for building modern web interfaces.
 
-A lightweight alternative to Angular or React.
+A lightweight alternative to React.
 
 #### [Bluebird](https://github.com/petkaantonov/bluebird) 
 
