@@ -26,6 +26,7 @@ Thanks for stopping by. ✌️
 	* [Sensible app architecture](#sensible-app-architecture)
 	* [Web scraping, data extraction](#web-scraping-data-extraction)
 	* [Language processing](#language-processing)
+	* [Machine Learning](#machine-learning)
 * [Data sets](#data-sets)
 	* [Language](#language)
 	* [Geographical data](#geographical-data)
@@ -146,8 +147,6 @@ __Further reading:__ [awesome-d3](https://github.com/wbkd/awesome-d3) is useful 
 > Directed graph renderer for JavaScript 
 
 Built on top of [graphlib](https://github.com/cpettitt/graphlib) by the same author, `dagre` helps you build directed graphs that you can then plug into D3 or cytoscape. See [the excellent wiki](https://github.com/cpettitt/dagre/wiki) for details.
-
-
 
 ### 3D, VR
 
@@ -361,6 +360,12 @@ Since lunr.js only supports English by default, supplement it with [lunr-languag
 #### [snowball-js](https://github.com/fortnightlabs/snowball-js)
 
 > javascript implementation of the popular snowball word stemming nlp algorithm
+
+### Machine Learning
+
+#### [deeplearn.js](https://github.com/PAIR-code/deeplearnjs) ([website](https://deeplearnjs.org/))
+
+> Hardware-accelerated deep learning // machine learning // NumPy library for the web.
 
 ## Data sets
 
