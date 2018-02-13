@@ -23,7 +23,8 @@ Thanks for stopping by. ✌️
 	* [Gamemaking](#gamemaking)
 	* [Working with documents](#working-with-documents)
 	* [Algorithms, data structures](#algorithms-data-structures)
-	* [Sensible app architecture](#sensible-app-architecture)
+	* [App Architecture](#app-architecture)
+	* [Prototyping](#prototyping)
 	* [Web scraping, data extraction](#web-scraping-data-extraction)
 	* [Language processing](#language-processing)
 	* [Machine Learning](#machine-learning)
@@ -137,6 +138,10 @@ To draw standard charts with D3, take a look at some libraries built on top of i
 * [semiotic](https://github.com/emeeks/semiotic)
 
 __Further reading:__ [awesome-d3](https://github.com/wbkd/awesome-d3) is useful for learning what other things you can do with D3.
+
+#### [vega-lite](https://github.com/vega/vega-lite) ([website](https://vega.github.io/vega-lite/))
+
+> Vega-Lite is a high-level grammar of interactive graphics. It provides a concise JSON syntax for rapidly generating visualizations to support analysis.
 
 #### [cytoscape.js](https://github.com/cytoscape/cytoscape.js) ([website](http://js.cytoscape.org/))
 
@@ -285,7 +290,7 @@ __[MediaStreamRecorder](https://github.com/streamproc/MediaStreamRecorder)__ ([w
 
 > Neural networks in JavaScript.
 
-### Sensible app architecture
+### App architecture
 
 #### [react](https://github.com/facebook/react) ([website](https://reactjs.org/))
 
@@ -300,6 +305,16 @@ A lightweight alternative to React.
 #### [Bluebird](https://github.com/petkaantonov/bluebird) 
 
 > Bluebird is a full featured promise library with unmatched performance.
+
+### Prototyping
+
+This section contains tools that make it easier to just start working on your thing without a lot of setup.
+
+#### [storybook](https://github.com/storybooks/storybook) ([website](https://storybook.js.org/))
+
+> Storybook is a development environment for UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components.
+
+This works as a React (or Vue) playground that lets you focus on writing components.
 
 #### [hackathon-starter](https://github.com/sahat/hackathon-starter) 
 
