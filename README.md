@@ -40,6 +40,9 @@ Thanks for stopping by. ✌️
 	* [Fetch a file from the web](#fetch-a-file-from-the-web)
 	* [Make an S3 bucket publicly available](#make-an-s3-bucket-publicly-available) 
 	* [`wget` for website mirroring / scraping](#wget-for-website-mirroring--scraping)
+* [Cheatsheets & recipes](#cheatsheets--recipes)
+	* [`ffmpeg`](#ffmpeg)
+	* [`wget`](#wget)
 
 ## JavaScript libraries
 
@@ -510,8 +513,6 @@ To fetch a file from the web with the command line, using `wget` is straightforw
 wget http://download.geofabrik.de/europe/romania-latest.osm.pbf
 ```
 
-(On macOS, you can install `wget` with Homebrew: `brew install wget`)
-
 Or, fetching a file in Node.js:
 
 ```js
@@ -543,37 +544,13 @@ All the files inside will typically be available at `http://myBucketName.s3.amaz
 
 __Extra credit:__ This is super-useful for hosting video files, since S3 supports __partial content requests__ which is needed to loop `<video>` on your web pages.
 
-### `wget` for website mirroring / scraping
+## Cheatsheets & recipes
 
-Here are some useful tricks with `wget`. [More of them here](http://www.labnol.org/software/wget-command-examples/28750/).
+### `ffmpeg`
 
-#### Mirror a website
+[See the list of recipes](./ffmpeg.md)
 
-```
-wget --mirror --no-clobber --no-parent --wait=3 --execute robots=off --domains=danburzo.ro,assets.danburzo.ro ‐‐user-agent=Mozilla danburzo.ro
-```
+### `wget`
 
-A quick explanation for these flags: 
-
-* `--mirror` is a shorthand for `-r -N -l inf --no-remove-listing`, which are some switches useful for scraping
-* `--no-clobber` instructs wget not to fetch each occurrence of the same URL as a separate file
-* `--no-parent` don't go up the hierarchy
-* `--wait=seconds` is used to wait for N seconds between requests, a.k.a. being nice to the server
-* `--execute robots=off` will ignore the `robots.txt` file on the website and any `nofollow` attributes on links
-* `--domains=domain1,domain2,...` is a list of domain names to consider when crawling (you'll want to include here any domains that hold the assets for the page)
-* `--user-agent=UserAgentString` can be used in case the server blocks access based on the User Agent
-
-#### Download sequential URLs
-
-```
-wget http://example.com/records/{1..1000}
-```
-
-#### Download a list of URLs
-
-The URLs can be specified in a separate file `list-of-URLs.txt`, with one URL per line.
-
-```
-wget ‐‐input list-of-URLs.txt
-```
+[See the list of recipes](./wget.md)
 
