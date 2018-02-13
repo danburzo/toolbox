@@ -485,7 +485,34 @@ A Python script to adjust the perspective for scanned/photographed pages of text
 
 Should work great with `wget` for web page data extraction.
 
+---
+
 ## Online tools
+
+### Places for your code
+
+#### [Observable](https://beta.observablehq.com)
+
+> Observable is a better way to code. Discover insights faster and communicate more effectively with interactive notebooks for data analysis, visualization, and exploration.
+
+See [this introductory series](https://beta.observablehq.com/collection/introduction) to get up to speed.
+
+#### [Glitch](https://glitch.com/)
+
+> Glitch is the friendly community where you'll build the app of your dreams.
+
+#### [CodePen](https://codepen.io)
+
+> CodePen is a social development environment for front-end designers and developers.
+
+#### [JS Bin](https://jsbin.com)
+
+#### [JSFiddle](https://jsfiddle.net/)
+
+#### [Thimble](https://thimble.mozilla.org)
+
+
+### Mapping
 
 #### [geojson.io](http://geojson.io) 
 
