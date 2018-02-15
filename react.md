@@ -49,6 +49,28 @@ componentDidUpdate(previous_props, previous_state) {
 }
 ```
 
+### The `property` setting on child components
+
+This is an useful convention to have when you have several properties in the state that need to be updated by separate components:
+
+```js
+<ParentComponent>
+  <Slider
+    value={this.state.opacity} 
+    onChange={this.updateProperty} 
+    property='opacity'
+  />
+  
+  <ColorPicker
+    value={this.state.color} 
+    onChange={this.updateProperty} 
+    property='color'
+  />
+</ParentComponent>
+```
+
+Setting the `property` on each control, and passing it back on the `onChange` event lets us write a single `updateProperty` callback for all the properties involved.
+
 ## Performance
 
 ### Checking for unnecessary renders
