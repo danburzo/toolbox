@@ -168,6 +168,10 @@ Much like D3 is the tool of choice for data visualization, three.js is the estab
 
 > Fast functional WebGL. 
 
+#### [cannon.js](https://github.com/schteppe/cannon.js)
+
+> Inspired by three.js and ammo.js, and driven by the fact that the web lacks a physics engine, here comes cannon.js. The rigid body physics engine includes simple collision detection, various body shapes, contacts, friction and constraints.
+
 #### [aframe](https://github.com/aframevr/aframe/) ([website](https://aframe.io/))
 
 > Building blocks for the VR Web.
