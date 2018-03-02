@@ -490,6 +490,13 @@ A Python script to adjust the perspective for scanned/photographed pages of text
 
 Should work great with `wget` for web page data extraction.
 
+#### RAISR
+
+[Google Rapid and Accurate Image Super Resolution](https://arxiv.org/pdf/1606.01299.pdf) is a technique to use Machine Learning to upscale images. There are a few implementations of the algorithm on GitHub:
+
+* [movehand/raisr](https://github.com/movehand/raisr)
+* [MKFMIKU/RAISR](https://github.com/MKFMIKU/RAISR)
+
 ---
 
 ## Online tools
