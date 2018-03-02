@@ -43,6 +43,7 @@ Thanks for stopping by. ✌️
 * [Cheatsheets & recipes](#cheatsheets--recipes)
 	* [`ffmpeg`](#ffmpeg)
 	* [`wget`](#wget)
+	* [Adobe Products](#adobe)
 
 ## JavaScript libraries
 
@@ -585,3 +586,6 @@ __Extra credit:__ This is super-useful for hosting video files, since S3 support
 
 [See the list of recipes](./wget.md)
 
+### Adobe products
+
+[See the list of recipes](./adobe.md)
