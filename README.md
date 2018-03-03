@@ -517,11 +517,13 @@ See [this introductory series](https://beta.observablehq.com/collection/introduc
 
 > CodePen is a social development environment for front-end designers and developers.
 
+#### [jsComplete](https://jscomplete.com/repl/)
+
+This is the simplest way I found to write React code like you would in a notepad. You can't save your work, but it's perfect for quick sketching. It also loads the latest version of React (16.2.0 at the moment).
+
 #### [JS Bin](https://jsbin.com)
 
-#### [JSFiddle](https://jsfiddle.net/)
-
-#### [Thimble](https://thimble.mozilla.org)
+#### [JSFiddle](https://jsfiddle.net)
 
 
 ### Mapping
@@ -596,3 +598,7 @@ __Extra credit:__ This is super-useful for hosting video files, since S3 support
 ### Adobe products
 
 [See the list of recipes](./adobe.md)
+
+## Further reading
+
+* [awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding)
