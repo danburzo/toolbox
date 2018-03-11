@@ -157,7 +157,7 @@ __Further reading:__ [awesome-d3](https://github.com/wbkd/awesome-d3) is useful 
 
 Built on top of [graphlib](https://github.com/cpettitt/graphlib) by the same author, `dagre` helps you build directed graphs that you can then plug into D3 or cytoscape. See [the excellent wiki](https://github.com/cpettitt/dagre/wiki) for details.
 
-### 3D, VR
+### 3D, VR, WebGL
 
 #### [three.js](https://github.com/mrdoob/three.js/) ([website](https://threejs.org/))
 
@@ -176,6 +176,12 @@ Much like D3 is the tool of choice for data visualization, three.js is the estab
 #### [aframe](https://github.com/aframevr/aframe/) ([website](https://aframe.io/))
 
 > Building blocks for the VR Web.
+
+### [blotter](https://github.com/bradley/Blotter) ([website](https://blotter.js.org))
+
+> A JavaScript API for drawing unconventional text effects on the web. 
+
+It uses three.js under the hood.
 
 ### Audio
 
