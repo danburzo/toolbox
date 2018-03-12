@@ -187,6 +187,12 @@ It uses three.js under the hood.
 
 > PEX is a collection of modular software components that work together well to create a tool for computation thinking.
 
+### [ejecta](https://github.com/phoboslab/ejecta) 
+
+> A Fast, Open Source JavaScript, Canvas & Audio Implementation for iOS
+
+Can help you bring things built with three.js, etc. to iOS.
+
 ### Audio
 
 #### [paulstretch.js](https://github.com/sebpiq/paulstretch.js)
