@@ -183,6 +183,10 @@ Much like D3 is the tool of choice for data visualization, three.js is the estab
 
 It uses three.js under the hood.
 
+### [pex](https://github.com/pex-gl/pex) ([website](http://variable.io/pex/))
+
+> PEX is a collection of modular software components that work together well to create a tool for computation thinking.
+
 ### Audio
 
 #### [paulstretch.js](https://github.com/sebpiq/paulstretch.js)
