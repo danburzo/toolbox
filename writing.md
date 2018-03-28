@@ -1,5 +1,7 @@
 # An evolving set of guidelines for writing well
 
+__See also:__ [jenniferlynparsons/awesome-writing](https://github.com/jenniferlynparsons/awesome-writing)
+
 ## Words to watch
 
 Word | Possible replacements
