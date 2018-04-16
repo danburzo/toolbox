@@ -306,6 +306,10 @@ __[MediaStreamRecorder](https://github.com/streamproc/MediaStreamRecorder)__ ([w
 
 ### Algorithms, Data structures
 
+#### [mnemonist](https://github.com/Yomguithereal/mnemonist)
+
+> Curated collection of data structures for the JavaScript language.
+
 #### [graphlib](https://github.com/cpettitt/graphlib) 
 
 > A directed multi-graph library for JavaScript.
