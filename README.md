@@ -88,7 +88,7 @@ This is for resizing images nicely in the browser.
 
 > JavaScript library for all kinds of color manipulations.
 
-Converting a color from and to any format, generate pleasing color palettes and color variations. See also [TinyColor](https://github.com/bgrins/TinyColor).
+Converting a color from and to any format, generate pleasing color palettes and color variations. See also [TinyColor](https://github.com/bgrins/TinyColor), [d3-color](https://github.com/d3/d3-color) and my own [culori](https://github.com/danburzo/culori).
 
 #### [paper.js](https://github.com/paperjs/paper.js)
 
@@ -178,17 +178,17 @@ Much like D3 is the tool of choice for data visualization, three.js is the estab
 
 > Building blocks for the VR Web.
 
-### [blotter](https://github.com/bradley/Blotter) ([website](https://blotter.js.org))
+#### [blotter](https://github.com/bradley/Blotter) ([website](https://blotter.js.org))
 
 > A JavaScript API for drawing unconventional text effects on the web. 
 
 It uses three.js under the hood.
 
-### [pex](https://github.com/pex-gl/pex) ([website](http://variable.io/pex/))
+#### [pex](https://github.com/pex-gl/pex) ([website](http://variable.io/pex/))
 
 > PEX is a collection of modular software components that work together well to create a tool for computation thinking.
 
-### [ejecta](https://github.com/phoboslab/ejecta) 
+#### [ejecta](https://github.com/phoboslab/ejecta) 
 
 > A Fast, Open Source JavaScript, Canvas & Audio Implementation for iOS
 
