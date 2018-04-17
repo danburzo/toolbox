@@ -44,6 +44,7 @@ Thanks for stopping by. ✌️
 	* [`ffmpeg`](#ffmpeg)
 	* [`wget`](#wget)
 	* [Adobe Products](#adobe)
+* [Other lists](#other-lists)
 
 ## JavaScript libraries
 
@@ -618,6 +619,10 @@ __Extra credit:__ This is super-useful for hosting video files, since S3 support
 ### Adobe products
 
 [See the list of recipes](./adobe.md)
+
+## Other lists
+
+* [A few good open-source typefaces](./typefaces.md)
 
 ## Further reading
 
