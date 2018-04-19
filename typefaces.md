@@ -18,6 +18,7 @@
 * [__Libre Caslon Text__](https://github.com/impallari/Libre-Caslon-Text) and [__Libre Caslon Display__](https://github.com/impallari/Libre-Caslon-Display) by Pablo Impallari and Rodrigo Fuenzalida
 * [__ET Book__](http://edwardtufte.github.io/et-book/) ([repo](https://github.com/edwardtufte/et-book)) by Dmitry Krasny, Bonnie Scranton, and Edward Tufte
 * [__BluuNext__](http://www.velvetyne.fr/fonts/bluu/) ([repo](https://github.com/jbmorizot/BluuNext)) by Jean-Baptiste Morizot
+* [__Charter__](https://practicaltypography.com/charter.html)<sup>NO-RO</sup> by Matthew Carter
 
 ### Monospaced
 
@@ -37,3 +38,7 @@
 
 * [Beautiful Web Type](http://beautifulwebtype.com/)
 * [awesome-fonts](https://github.com/brabadu/awesome-fonts)
+
+---
+
+<sup>NO-RO</sup> Glpyh set does not include Romanian diacritical marks; see [Charis](https://software.sil.org/charis/) as an alternative.
