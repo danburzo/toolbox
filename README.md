@@ -54,7 +54,7 @@ Thanks for stopping by. ✌️
 
 Repo | Description | Notes
 ---- | ----------- | -----
-[quaggaJS](https://github.com/serratus/quaggaJS) | QuaggaJS is a barcode-scanner entirely written in JavaScript supporting real-time localization and decoding of various types of barcodes such as EAN, CODE 128, CODE 39, EAN 8, UPC-A, UPC-C, I2of5 and CODABAR. The library is also capable of using `getUserMedia` to get direct access to the user's camera stream. Although the code relies on heavy image- processing even recent smartphones are capable of locating and decoding barcodes in real-time. | For reading barcodes with a webcam or phone camera. See also __[JSBarcode](https://github.com/lindell/JsBarcode)__ for _generating_ barcodes.
+[quaggaJS](https://github.com/serratus/quaggaJS) | QuaggaJS is a barcode-scanner entirely written in JavaScript supporting real-time localization and decoding of various types of barcodes such as EAN, CODE 128, CODE 39, EAN 8, UPC-A, UPC-C, I2of5 and CODABAR. The library is also capable of using `getUserMedia` to get direct access to the user's camera stream. Although the code relies on heavy image- processing even recent smartphones are capable of locating and decoding barcodes in real-time. | For reading barcodes with a webcam or phone camera. See also [JSBarcode](https://github.com/lindell/JsBarcode) for _generating_ barcodes.
 [omggif](https://github.com/deanm/omggif) | JavaScript implementation of a GIF 89a encoder and decoder. | For making GIFs. [Animated_GIF](https://github.com/sole/Animated_GIF), for example, builds on top of this library.
 [exif.js](https://github.com/jseidelin/exif-js) | JavaScript library for reading EXIF image metadata. | Extracting information from JPEG files.
 [Lanczos.js](https://github.com/mudcube/Lanczos.js) | Lancszos image resampling. | This is for resizing images nicely in the browser.
@@ -109,8 +109,7 @@ Repo | Description | Notes
 [WebMidi.js](https://github.com/cotejp/webmidi) | WebMidi.js helps you tame the Web MIDI API. Send and receive MIDI messages with ease. Control instruments with user-friendly functions (playNote, sendPitchBend, etc.). React to MIDI input with simple event listeners (noteon, pitchbend, controlchange, etc.) |
 [NexusUI](https://github.com/lsu-emdm/nexusUI) [↪](http://www.nexusosc.com/) | NexusUI is a JavaScript toolkit for easily designing musical interfaces in web browsers and mobile apps, with emphasis on rapid prototyping and integration with web audio. |
 [Gibberish](https://github.com/charlieroberts/Gibberish) [↪](http://www.charlie-roberts.com/gibberish/) | Fast, JavaScript DSP library that creates JIT optimized audio callbacks using code generation techniques | Library behind [Gibber](https://github.com/charlieroberts/Gibber) [↪](http://gibber.mat.ucsb.edu/) &mdash; an audiovisual live coding environment for the browser. See also [interface.js](https://github.com/charlieroberts/interface.js) [↪](http://www.charlie-roberts.com/interface/) by the same author &mdash; a GUI library for music / arts applications that works with touch, mouse and motion events. 
-[genish.js](https://github.com/charlieroberts/genish.js) [↪](http://www.charlie-roberts.com/genish/)
-| A library for generating optimized, single-sample audio callbacks in JavaScript. Inspired by gen~ in Max/MSP. |
+[genish.js](https://github.com/charlieroberts/genish.js) [↪](http://www.charlie-roberts.com/genish/) | A library for generating optimized, single-sample audio callbacks in JavaScript. Inspired by gen~ in Max/MSP. |
 [howler.js](https://github.com/goldfire/howler.js) [↪](https://howlerjs.com/) | howler.js is an audio library for the modern web. It defaults to Web Audio API and falls back to HTML5 Audio. This makes working with audio in JavaScript easy and reliable across all platforms. |
 
 #### Utilities
@@ -241,7 +240,7 @@ Link | Description | Notes
 [Wordnik](http://developer.wordnik.com/) | The Wordnik API lets you request definitions, example sentences, spelling suggestions, related words like synonyms and antonyms, phrases containing a given word, word autocompletion, random words, words of the day, and much more. |
 [poetrydb](https://github.com/thundercomb/poetrydb) [↪](http://poetrydb.org) | PoetryDB is an API for internet poets. |
 [Echo Nest](http://developer.echonest.com/) | The Echo Nest offers an incredible array of music data and services for developers to build amazing apps and experiences. See also [echonest/remix](https://github.com/echonest/remix). |
-[Openapi](http://openapi.ro/) (🇷🇴) | Provides information about companies, IP geolocation, validation for CIF / CNP / IBAN / BIC, exchange rate, postal codes, singular and plural forms of Romanian words |
+[Openapi](http://openapi.ro/) 🇷🇴 | Provides information about companies, IP geolocation, validation for CIF / CNP / IBAN / BIC, exchange rate, postal codes, singular and plural forms of Romanian words |
 
 ## Command-Line Tools
 
@@ -254,7 +253,7 @@ Link | Description | Notes
 [unproject_text](https://github.com/mzucker/unproject_text) [article](https://mzucker.github.io/2016/10/11/unprojecting-text-with-ellipses.html) | Perspective recovery of text using transformed ellipses. | A Python script to adjust the perspective for scanned/photographed pages of texts, making it easier to run Optical Character Recognition on it.
 [page_dewarp](https://github.com/mzucker/page_dewarp) [article](https://mzucker.github.io/2016/08/15/page-dewarping.html) | Page dewarping and thresholding using a "cubic sheet" model. |
 [pup](https://github.com/ericchiang/pup) | pup is a command line tool for processing HTML. It reads from stdin, prints to stdout, and allows the user to filter parts of the page using CSS selectors. | Should work great with `wget` for web page data extraction.
-RAISR | | [Google Rapid and Accurate Image Super Resolution](https://arxiv.org/pdf/1606.01299.pdf) is a technique to use Machine Learning to upscale images. There are a few implementations of the algorithm on GitHub: [movehand/raisr](https://github.com/movehand/raisr), [MKFMIKU/RAISR](https://github.com/MKFMIKU/RAISR)
+RAISR | [Google Rapid and Accurate Image Super Resolution](https://arxiv.org/pdf/1606.01299.pdf) is a technique to use Machine Learning to upscale images. | There are a few implementations of the algorithm on GitHub: [movehand/raisr](https://github.com/movehand/raisr), [MKFMIKU/RAISR](https://github.com/MKFMIKU/RAISR)
 
 ---
 
@@ -264,7 +263,7 @@ RAISR | | [Google Rapid and Accurate Image Super Resolution](https://arxiv.org/p
 
 Link | Description | Notes
 ---- | ----------- | -----
-[Observable](https://beta.observablehq.com) | Observable is a better way to code. Discover insights faster and communicate more effectively with interactive notebooks for data analysis, visualization, and exploration. | See [this introductory series](https://beta.observablehq.com/collection/introduction) to get up to speed.
+★ [Observable](https://beta.observablehq.com) | Observable is a better way to code. Discover insights faster and communicate more effectively with interactive notebooks for data analysis, visualization, and exploration. | See [this introductory series](https://beta.observablehq.com/collection/introduction) to get up to speed.
 [Glitch](https://glitch.com/) | Glitch is the friendly community where you'll build the app of your dreams. | 
 [CodePen](https://codepen.io) | CodePen is a social development environment for front-end designers and developers. |
 [jsComplete](https://jscomplete.com/repl/) | | This is the simplest way I found to write React code like you would in a notepad. You can't save your work, but it's perfect for quick sketching. It also loads the latest version of React (16.2.0 at the moment).
