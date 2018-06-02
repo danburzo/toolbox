@@ -24,6 +24,7 @@
 
 * [__Hack__](https://sourcefoundry.org/hack/)
 * [__Iosevka__](https://be5invis.github.io/Iosevka/)
+* [__League Mono__](https://github.com/sursly/leaguemono)
 
 ## Superfamilies
 
