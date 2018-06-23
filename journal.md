@@ -8,6 +8,8 @@ __Design Systems.__ The GDS system published the [GOV.UK Design System](https://
 
 __Static site generators.__ [eleventy](https://github.com/11ty/eleventy) shares the ethos of marceljs. [twig.js](https://github.com/twigjs/twig.js) and [twing](https://github.com/ericmorand/twing) are two implementations of the Twig template language in JavaScript.
 
+__Creative coding.__ [rabbitear](https://rabbitear.org/) is an origami-building library for the web.
+
 #### June 18, 2018
 
 __React.__ [react-window](https://github.com/bvaughn/react-window) looks like a fast way to render _lots_ of objects in a viewport with React, without compromising the performance. Seems to be a refresh of [react-virtualized](https://github.com/bvaughn/react-virtualized). Speaking of refreshes, [reach-router](https://github.com/reach/router) seems like an update to [react-router](https://github.com/ReactTraining/react-router). [react-powerplug](https://github.com/renatorib/react-powerplug) has some useful little components. [react-focus-marshall](https://github.com/jossmac/react-focus-marshal) traps the keyboard tabbing focus within a component.
