@@ -1,5 +1,13 @@
 # Journal of open-source finds and other revelations
 
+#### Saturday, June 30, 2018
+
+__React.__ The case for [Headless UI Components](https://www.merrickchristensen.com/articles/headless-user-interface-components/). 
+
+__Creative coding.__ [Knitlify](https://knitlify.netlify.com/) turns images into knits. [This poster](https://codepen.io/adamclaxon/full/xzzxaE/) was built with CSS grid. [MOD Synth](http://mod-synth.io/) is pretty fun, here's the [source code](https://github.com/andrevenancio/mod-synth.io).
+
+__JavaScript.__ [A refresher](https://frontendian.co/prototype) on `prototype`. [faste](https://github.com/theKashey/faste) is a state machine manager.
+
 #### Sunday, June 24, 2018
 
 __React.__ [react-sizeme](https://github.com/ctrlplusb/react-sizeme) sounds like it could be useful for measuring DOM nodes after they're rendered. The React folks are working on a [Profiler](https://twitter.com/brian_d_vaughn/status/1009977215176491008) tool, which may make things like _why-did-you-update_ (or my own _ytho_, which I've recently nuked), useless. [react-pdf](https://github.com/diegomura/react-pdf) promises to let you build PDFs in JSX.
