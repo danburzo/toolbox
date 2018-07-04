@@ -2,9 +2,7 @@
 
 #### Saturday, July 7, 2018
 
-> All I want is to be someone that makes new things and thinks about them. 
-
-— a haiku by John Maeda
+> All I want is to be someone that makes new things and thinks about them. — a haiku by John Maeda
 
 __React.__ [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) has just hit version 8, and seems a robust and comprehensive library for drag-and-drop interactions. [react-keyboardist](https://github.com/soska/react-keyboardist) is for adding keyboard shortcuts to your app. [atomic-layout](https://github.com/kettanaito/atomic-layout) uses CSS Grid to build layouts, looks promising. [react-from-zero](https://github.com/kay-is/react-from-zero) uses annotated code examples that work directly in the browser to teach React basics.
 
@@ -12,7 +10,9 @@ __Essays.__ [Balancing Time](https://css-tricks.com/balancing-time/) / [Mediocre
 
 __Reference.__ [An explanation](https://github.com/stereobooster/package.json) of all the different fields in `package.json` /  [Inclusive design principles](https://inclusivedesignprinciples.org/) / [Tips for writing better](https://medium.com/@jesseddy/tips-for-designers-to-become-better-copywriters-from-the-experts-part-1-cbd3720cbd88).
 
-__Parting thought.__ Programming wisdom around "premature" optimization — identifying it as the root of all evil, even — is one of the maddeningly pervasive sound bites that tends to shore up on my timeline from time to time. Left unexamined, it's misunderstood as a carte blanche for writing inefficient code. Emil Persson has recently [written an article](http://www.humus.name/index.php?page=News&ID=383) in response to the latest offender.
+__Parting thought.__ Programming wisdom around "premature" optimization — identifying it as the root of all evil, even — is one of the maddeningly pervasive sound bites that tends to shore up on my timeline from time to time. Left unexamined, it's misunderstood as a carte blanche for writing inefficient code. Emil Persson [writes a response](http://www.humus.name/index.php?page=News&ID=383) to the latest offender.
+
+__Soundtrack:__ Ian William Craig — A Turn of Breath.
 
 #### Saturday, June 30, 2018
 
