@@ -14,7 +14,7 @@ __Reference.__ [An explanation](https://github.com/stereobooster/package.json) o
 
 __Infrastructure.__ [pulumi](https://www.pulumi.com/) looks great for configuring cloud infrastructure with JavaScript.
 
-__Parting thought.__ Programming wisdom loves to diss on performance optimizations, e.g. _Rule 1: Don't do it. Rule 2 (for experts only): Don't do it yet._, root of all evil, etc. [Counterpoint](https://twitter.com/SpliterCBb/status/1011953882992431104):
+__Parting thought.__ Programming wisdom around "premature" optimization — identifying it as the root of all evil, even — is one of the maddeningly pervasive sound bites that tends to shore up on my timeline from time to time. Left unexamined, it's misunderstood as a carte blanche for writing inefficient code. Emil Persson has recently [written an article](http://www.humus.name/index.php?page=News&ID=383) in response to the latest offender.
 
 > And this is why so much software runs like absolute arse.
 
