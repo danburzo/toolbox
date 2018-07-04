@@ -1,12 +1,30 @@
 # Journal of open-source finds and other revelations
 
+#### Saturday, July 7, 2018
+
+> All I want is to be someone that makes new things and thinks about them. 
+
+— a haiku by John Maeda
+
+__React.__ [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) for drag-and-drop interactions. [What I learned from creating my first React app](https://medium.freecodecamp.org/lessons-learned-from-my-first-react-app-3c4ebb740399). [rogue](https://github.com/alidcastano/rogue) says it can do server-side rendering for React without any configuration, interesting. [react-keyboardist](https://github.com/soska/react-keyboardist) for adding keyboard shortcuts. [atomic-layout](https://github.com/kettanaito/atomic-layout) uses CSS Grid. [react-from-zero](https://github.com/kay-is/react-from-zero) is a tutorial.
+
+__Library authoring.__ [An explanation](https://github.com/stereobooster/package.json) of all the different fields in `package.json`. [Readme Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html).
+
+__Essays.__ [Balancing Time](https://css-tricks.com/balancing-time/) by Sarah Drasner. [Mediocre ideas, showing up, and persistence](https://chriscoyier.net/2013/10/18/mediocre-ideas-showing-up-and-persistence/) by Chris Coyier. [Reclaiming RSS](https://ar.al/2018/06/29/reclaiming-rss/).
+
+__Accessibility.__ [Inclusive design principles](https://inclusivedesignprinciples.org/).
+
+__Writing.__ [Tips for writing better](https://medium.com/@jesseddy/tips-for-designers-to-become-better-copywriters-from-the-experts-part-1-cbd3720cbd88).
+
+__Infrastructure.__ [pulumi](https://www.pulumi.com/) looks great for configuring cloud infrastructure with JavaScript.
+
+__Parting thought.__ Programming wisdom loves to diss on performance optimizations, e.g. _Rule 1: Don't do it. Rule 2 (for experts only): Don't do it yet._, root of all evil, etc. [Counterpoint](https://twitter.com/SpliterCBb/status/1011953882992431104):
+
+> And this is why so much software runs like absolute arse.
+
 #### Saturday, June 30, 2018
 
-__React.__ The case for [Headless UI Components](https://www.merrickchristensen.com/articles/headless-user-interface-components/). 
-
-__Creative coding.__ [Knitlify](https://knitlify.netlify.com/) turns images into knits. [This poster](https://codepen.io/adamclaxon/full/xzzxaE/) was built with CSS grid. [MOD Synth](http://mod-synth.io/) is pretty fun, here's the [source code](https://github.com/andrevenancio/mod-synth.io).
-
-__JavaScript.__ [A refresher](https://frontendian.co/prototype) on `prototype`. [faste](https://github.com/theKashey/faste) is a state machine manager.
+A short one this week. The case for [Headless UI Components](https://www.merrickchristensen.com/articles/headless-user-interface-components/). [This poster](https://codepen.io/adamclaxon/full/xzzxaE/) was built with CSS grid. [A refresher](https://frontendian.co/prototype) on `prototype`. [faste](https://github.com/theKashey/faste) is a state machine manager.
 
 #### Sunday, June 24, 2018
 
