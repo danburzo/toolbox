@@ -6,15 +6,11 @@
 
 — a haiku by John Maeda
 
-__React.__ [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) for drag-and-drop interactions. [What I learned from creating my first React app](https://medium.freecodecamp.org/lessons-learned-from-my-first-react-app-3c4ebb740399). [rogue](https://github.com/alidcastano/rogue) says it can do server-side rendering for React without any configuration, interesting. [react-keyboardist](https://github.com/soska/react-keyboardist) for adding keyboard shortcuts. [atomic-layout](https://github.com/kettanaito/atomic-layout) uses CSS Grid. [react-from-zero](https://github.com/kay-is/react-from-zero) is a tutorial.
+__React.__ [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) for drag-and-drop interactions. [rogue](https://github.com/alidcastano/rogue) says it can do server-side rendering for React without any configuration, interesting. [react-keyboardist](https://github.com/soska/react-keyboardist) for adding keyboard shortcuts. [atomic-layout](https://github.com/kettanaito/atomic-layout) uses CSS Grid. [react-from-zero](https://github.com/kay-is/react-from-zero) is a tutorial.
 
-__Library authoring.__ [An explanation](https://github.com/stereobooster/package.json) of all the different fields in `package.json`. [Readme Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html).
+__Essays.__ [Balancing Time](https://css-tricks.com/balancing-time/) by Sarah Drasner. [Mediocre ideas, showing up, and persistence](https://chriscoyier.net/2013/10/18/mediocre-ideas-showing-up-and-persistence/) by Chris Coyier. [Reclaiming RSS](https://ar.al/2018/06/29/reclaiming-rss/). [Readme Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html).
 
-__Essays.__ [Balancing Time](https://css-tricks.com/balancing-time/) by Sarah Drasner. [Mediocre ideas, showing up, and persistence](https://chriscoyier.net/2013/10/18/mediocre-ideas-showing-up-and-persistence/) by Chris Coyier. [Reclaiming RSS](https://ar.al/2018/06/29/reclaiming-rss/).
-
-__Accessibility.__ [Inclusive design principles](https://inclusivedesignprinciples.org/).
-
-__Writing.__ [Tips for writing better](https://medium.com/@jesseddy/tips-for-designers-to-become-better-copywriters-from-the-experts-part-1-cbd3720cbd88).
+__Reference.__ [An explanation](https://github.com/stereobooster/package.json) of all the different fields in `package.json`. [Inclusive design principles](https://inclusivedesignprinciples.org/). [Tips for writing better](https://medium.com/@jesseddy/tips-for-designers-to-become-better-copywriters-from-the-experts-part-1-cbd3720cbd88).
 
 __Infrastructure.__ [pulumi](https://www.pulumi.com/) looks great for configuring cloud infrastructure with JavaScript.
 
