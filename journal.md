@@ -6,21 +6,17 @@
 
 — a haiku by John Maeda
 
-__React.__ [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) for drag-and-drop interactions. [rogue](https://github.com/alidcastano/rogue) says it can do server-side rendering for React without any configuration, interesting. [react-keyboardist](https://github.com/soska/react-keyboardist) for adding keyboard shortcuts. [atomic-layout](https://github.com/kettanaito/atomic-layout) uses CSS Grid. [react-from-zero](https://github.com/kay-is/react-from-zero) is a tutorial.
+__React.__ [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) has just hit version 8, and seems a robust and comprehensive library for drag-and-drop interactions. [react-keyboardist](https://github.com/soska/react-keyboardist) is for adding keyboard shortcuts to your app. [atomic-layout](https://github.com/kettanaito/atomic-layout) uses CSS Grid to build layouts, looks promising. [react-from-zero](https://github.com/kay-is/react-from-zero) uses annotated code examples that work directly in the browser to teach React basics.
 
-__Essays.__ [Balancing Time](https://css-tricks.com/balancing-time/) by Sarah Drasner. [Mediocre ideas, showing up, and persistence](https://chriscoyier.net/2013/10/18/mediocre-ideas-showing-up-and-persistence/) by Chris Coyier. [Reclaiming RSS](https://ar.al/2018/06/29/reclaiming-rss/). [Readme Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html).
+__Essays.__ [Balancing Time](https://css-tricks.com/balancing-time/) / [Mediocre ideas, showing up, and persistence](https://chriscoyier.net/2013/10/18/mediocre-ideas-showing-up-and-persistence/) / [Reclaiming RSS](https://ar.al/2018/06/29/reclaiming-rss/) / [Readme Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html) / [Anti-Flow](http://randsinrepose.com/archives/anti-flow/).
 
-__Reference.__ [An explanation](https://github.com/stereobooster/package.json) of all the different fields in `package.json`. [Inclusive design principles](https://inclusivedesignprinciples.org/). [Tips for writing better](https://medium.com/@jesseddy/tips-for-designers-to-become-better-copywriters-from-the-experts-part-1-cbd3720cbd88).
-
-__Infrastructure.__ [pulumi](https://www.pulumi.com/) looks great for configuring cloud infrastructure with JavaScript.
+__Reference.__ [An explanation](https://github.com/stereobooster/package.json) of all the different fields in `package.json` /  [Inclusive design principles](https://inclusivedesignprinciples.org/) / [Tips for writing better](https://medium.com/@jesseddy/tips-for-designers-to-become-better-copywriters-from-the-experts-part-1-cbd3720cbd88).
 
 __Parting thought.__ Programming wisdom around "premature" optimization — identifying it as the root of all evil, even — is one of the maddeningly pervasive sound bites that tends to shore up on my timeline from time to time. Left unexamined, it's misunderstood as a carte blanche for writing inefficient code. Emil Persson has recently [written an article](http://www.humus.name/index.php?page=News&ID=383) in response to the latest offender.
 
-> And this is why so much software runs like absolute arse.
-
 #### Saturday, June 30, 2018
 
-A short one this week. The case for [Headless UI Components](https://www.merrickchristensen.com/articles/headless-user-interface-components/). [This poster](https://codepen.io/adamclaxon/full/xzzxaE/) was built with CSS grid. [A refresher](https://frontendian.co/prototype) on `prototype`. [faste](https://github.com/theKashey/faste) is a state machine manager.
+A short one this week. The case for [Headless UI Components](https://www.merrickchristensen.com/articles/headless-user-interface-components/) / [This poster](https://codepen.io/adamclaxon/full/xzzxaE/) was built with CSS grid. [A refresher](https://frontendian.co/prototype) on `prototype` / [faste](https://github.com/theKashey/faste) is a state machine manager.
 
 #### Sunday, June 24, 2018
 
