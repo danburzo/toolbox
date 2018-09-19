@@ -287,6 +287,12 @@ Run `python -m SimpleHTTPServer` in your project folder to make it available at 
 
 __Note:__ The syntax above is for the Python 2.x that comes preinstalled with macOS and Linux. The equivalent syntax for Python 3 is `python -m http.server`. 
 
+If you're using Node.js, you can also use the [`serve`](https://npmjs.com/package/serve) package, which you can run without installing with [`npx`](https://www.npmjs.com/package/npx) (it comes with recent versions of `npm`):
+
+```bash
+npx serve
+```
+
 ### Fetch a file from the web
 
 To fetch a file from the web with the command line, using `wget` is straightforward:
@@ -295,7 +301,9 @@ To fetch a file from the web with the command line, using `wget` is straightforw
 wget http://download.geofabrik.de/europe/romania-latest.osm.pbf
 ```
 
-Or, fetching a file in Node.js:
+> 👉 See [more `wget` tricks](./wget.md)
+
+Or, fetching a file in Node:
 
 ```js
 require('http').get('http://download.geofabrik.de/europe/romania-latest.osm.pbf', function(response) {
@@ -335,6 +343,10 @@ __Extra credit:__ This is super-useful for hosting video files, since S3 support
 ### `wget`
 
 [See the list of recipes](./wget.md)
+
+### Unix command-line tools
+
+[See the list of recipes](./unix-cli.md)
 
 ### Adobe products
 
