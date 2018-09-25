@@ -11,6 +11,7 @@
 * [__Cooper Hewitt__](https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/) ([repo](https://github.com/cooperhewitt/cooperhewitt-typeface)) by Chester Jenkins
 * [__Gidole__](http://gidole.github.io/) ([repo](https://github.com/larsenwork/Gidole)) by Andreas Larsen
 * [__Overpass__](http://overpassfont.org/)
+* [__Lunchtype__](http://lunchtype.com/)<sup>NO-RO</sup>
 
 ### Serif
 
@@ -18,7 +19,7 @@
 * [__Libre Caslon Text__](https://github.com/impallari/Libre-Caslon-Text) and [__Libre Caslon Display__](https://github.com/impallari/Libre-Caslon-Display) by Pablo Impallari and Rodrigo Fuenzalida
 * [__ET Book__](http://edwardtufte.github.io/et-book/) ([repo](https://github.com/edwardtufte/et-book)) by Dmitry Krasny, Bonnie Scranton, and Edward Tufte
 * [__BluuNext__](http://www.velvetyne.fr/fonts/bluu/) ([repo](https://github.com/jbmorizot/BluuNext)) by Jean-Baptiste Morizot
-* [__Charter__](https://practicaltypography.com/charter.html)<sup>NO-RO</sup> by Matthew Carter
+* [__Charter__](https://practicaltypography.com/charter.html)<sup>NO-RO</sup><sup>1</sup> by Matthew Carter
 
 ### Monospaced
 
@@ -42,4 +43,5 @@
 
 ---
 
-<sup>NO-RO</sup> Glpyh set does not include Romanian diacritical marks; see [Charis](https://software.sil.org/charis/) as an alternative.
+<sup>NO-RO</sup> Glpyh set does not include Romanian diacritical marks.
+<sup>1</sup> see [Charis](https://software.sil.org/charis/) as an alternative.
