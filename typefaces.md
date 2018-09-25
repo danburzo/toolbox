@@ -12,6 +12,7 @@
 * [__Gidole__](http://gidole.github.io/) ([repo](https://github.com/larsenwork/Gidole)) by Andreas Larsen
 * [__Overpass__](http://overpassfont.org/)
 * [__Lunchtype__](http://lunchtype.com/)<sup>NO-RO</sup>
+* [__Libre Franklin__](https://github.com/impallari/Libre-Franklin)
 
 ### Serif
 
