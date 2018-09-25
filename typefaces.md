@@ -11,8 +11,8 @@
 * [__Cooper Hewitt__](https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/) ([repo](https://github.com/cooperhewitt/cooperhewitt-typeface)) by Chester Jenkins
 * [__Gidole__](http://gidole.github.io/) ([repo](https://github.com/larsenwork/Gidole)) by Andreas Larsen
 * [__Overpass__](http://overpassfont.org/)
-* [__Lunchtype__](http://lunchtype.com/)<sup>NO-RO</sup>
-* [__Libre Franklin__](https://github.com/impallari/Libre-Franklin)
+* [__Lunchtype__](http://lunchtype.com/)<sup>NO-RO</sup> by Stefan Wetterstrand
+* [__Libre Franklin__](https://github.com/impallari/Libre-Franklin) by Pablo Impallari and Rodrigo Fuenzalida
 
 ### Serif
 
@@ -41,6 +41,7 @@
 
 * [Beautiful Web Type](http://beautifulwebtype.com/)
 * [awesome-fonts](https://github.com/brabadu/awesome-fonts)
+* [Use & Modify](http://usemodify.com/) (See [this issue](https://github.com/raphaelbastide/usemodify/issues/1) for fonts not included on the website)
 
 ---
 
