@@ -84,8 +84,8 @@ warn
 
 How it's built:
 
-1. `find` all files in the current directory (`.`)
-2. pass the files names to a `perl` command that extracts a RegExp pattern
+1. `find` all JavaScript files (`*.js`) in the current directory (`.`)
+2. pass the file names to a `perl` command that extracts a RegExp pattern
 3. finally, `sort` the extracted patterns to show only `-u`nique occurrences
 
 > 💡 To make the command work with files that contain spaces in their name, we'll need to use [the `-print0` / `-0` combo](#dealing-with-spaces-in-file-names) again.

@@ -43,6 +43,8 @@ Thanks for stopping by. ✌️
 * [Cheatsheets & recipes](#cheatsheets--recipes)
 	* [`ffmpeg`](#ffmpeg)
 	* [`wget`](#wget)
+	* [Unix command-line tools](#unix-command-line-tools)
+	* [MySQL queries](mysql-queries)
 	* [Adobe Products](#adobe)
 * [Other lists](#other-lists)
 
@@ -346,7 +348,15 @@ __Extra credit:__ This is super-useful for hosting video files, since S3 support
 
 ### Unix command-line tools
 
+> The standard command-line tools available on Unix-based systems are wonderful, if occasionally inscrutable. This page contains some commands I found useful.
+
 [See the list of recipes](./unix-cli.md)
+
+### MySQL Queries
+
+> Some useful tricks for working with data from MySQL tables.
+
+[See the list of recipes](./mysql.md)
 
 ### Adobe products
 
