@@ -44,7 +44,7 @@ Thanks for stopping by. ✌️
 	* [`ffmpeg`](#ffmpeg)
 	* [`wget`](#wget)
 	* [Unix command-line tools](#unix-command-line-tools)
-	* [MySQL queries](mysql-queries)
+	* [MySQL queries](#mysql-queries)
 	* [Adobe Products](#adobe)
 * [Other lists](#other-lists)
 
