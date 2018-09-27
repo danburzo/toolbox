@@ -2,6 +2,10 @@
 
 __See also:__ [jenniferlynparsons/awesome-writing](https://github.com/jenniferlynparsons/awesome-writing)
 
+## Articles
+
+* [Use the words normal people would use](https://gilest.org/normal-words.html)
+
 ## Words to watch
 
 Word | Possible replacements
