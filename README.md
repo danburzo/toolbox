@@ -28,6 +28,7 @@ Thanks for stopping by. ✌️
 	* [Web scraping, data extraction](#web-scraping-data-extraction)
 	* [Language processing](#language-processing)
 	* [Machine Learning](#machine-learning)
+	* [Parsing things](#parsing-things)
 * [Data sets](#data-sets)
 	* [Language](#language)
 	* [Geographical data](#geographical-data)
@@ -207,6 +208,14 @@ Repo | Description | Notes
 Repo | Description | Notes
 ---- | ----------- | -----
 [deeplearn.js](https://github.com/PAIR-code/deeplearnjs) [↪](https://deeplearnjs.org/) |Hardware-accelerated deep learning // machine learning // NumPy library for the web. |
+
+### Parsing things
+
+Language | Parser(s)
+-------- | ---------
+HTML | [parse5](https://github.com/inikulin/parse5) for barebones HTML parsing, [jsdom](https://github.com/jsdom/jsdom) for higher-level (a subset of the DOM API) interaction with the contents.
+CSS | [reworkcss/css](https://github.com/reworkcss/css)
+JavaScript | [acorn](https://github.com/acornjs/acorn) or [@babel/parser](https://github.com/babel/babel/tree/master/packages/babel-parser)
 
 ## Data sets
 
