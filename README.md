@@ -189,7 +189,7 @@ Repo | Description | Notes
 ---- | ----------- | -----
 [artoo](https://github.com/medialab/artoo) | artoo.js is a piece of JavaScript code meant to be run in your browser's console to provide you with some scraping utilities. | Allows you to create custom bookmarklets to scrape a web page from your browser; I could see this being used in places where on a server you'd have to jump through some hoops, e.g. getting your Facebook saved links.
 [x-ray](https://github.com/lapwinglabs/x-ray) | The next web scraper. See through the `<html>` noise. | From the maker of [cheerio](https://github.com/cheeriojs/cheerio), and built on top of it, x-ray gives you a terse, fluent API to scrape and navigate pages.
-[fathom](https://github.com/mozilla/fathom) | A framework for extracting meaning from web pages. | Seems to be still a work in progress, but it will ultimately be a tool for understanding where some particular type of content is on a page: "Where is the body? The title? Is this a "next page" button? Is this a comment form, and are there comments here? By better understanding the parts of a page, we can improve our understanding of how a user interacts with it." [source](https://wiki.mozilla.org/Context_Graph#Fathom)
+[fathom](https://github.com/mozilla/fathom) | A framework for extracting meaning from web pages. | Seems to be still a work in progress, but it will ultimately be a tool for understanding where some particular type of content is on a page: _"Where is the body? The title? Is this a 'next page' button? Is this a comment form, and are there comments here? By better understanding the parts of a page, we can improve our understanding of how a user interacts with it."_ — [source](https://wiki.mozilla.org/Context_Graph#Fathom)
 [readability](https://github.com/mozilla/readability) | A standalone version of the readability library used for Firefox Reader View. | Extract the main content from a web page.
 
 ### Language processing
@@ -211,11 +211,17 @@ Repo | Description | Notes
 
 ### Parsing things
 
-Language | Parser(s)
--------- | ---------
-HTML | [parse5](https://github.com/inikulin/parse5) for barebones HTML parsing, [jsdom](https://github.com/jsdom/jsdom) for higher-level (a subset of the DOM API) interaction with the contents.
-CSS | [reworkcss/css](https://github.com/reworkcss/css)
-JavaScript | [acorn](https://github.com/acornjs/acorn) or [@babel/parser](https://github.com/babel/babel/tree/master/packages/babel-parser)
+Repo | Description | Notes
+---- | ----------- | -----
+[parse5](https://github.com/inikulin/parse5) | parse5 provides nearly everything you may need when dealing with HTML. It's the fastest spec-compliant HTML parser for Node to date. It parses HTML the way the latest version of your browser does. | Use this to get a barebones representation of your HTML
+★ [jsdom](https://github.com/jsdom/jsdom) | jsdom is a pure-JavaScript implementation of many web standards, notably the WHATWG DOM and HTML Standards, for use with Node.js. | Use this for more convenient methods to interact with the HTML (e.g. `querySelectorAll()`)
+[css](https://github.com/reworkcss/css) | CSS parser / stringifier for Node.js |
+[postcss](https://github.com/postcss/postcss) | PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more. | 
+[acorn](https://github.com/acornjs/acorn) | A tiny, fast JavaScript parser, written completely in JavaScript. | 
+[@babel/parser](https://github.com/babel/babel/tree/master/packages/babel-parser) [↪](https://babeljs.io/docs/en/next/babel-parser.html) | The Babel parser (previously Babylon) is a JavaScript parser used in Babel. | 
+[recast](https://github.com/benjamn/recast) | JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator. | Uses [`esprima`](https://github.com/jquery/esprima)\* as the default parser, but can be configured for `acorn` or `@babel/parser`. 
+
+<small>\* `esprima` is one of the more mature ECMAScript parsers.</small>
 
 ## Data sets
 
