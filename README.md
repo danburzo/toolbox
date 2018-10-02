@@ -29,6 +29,7 @@ Thanks for stopping by. ✌️
 	* [Language processing](#language-processing)
 	* [Machine Learning](#machine-learning)
 	* [Parsing things](#parsing-things)
+	* [Building CLIs](#building-clis)
 * [Data sets](#data-sets)
 	* [Language](#language)
 	* [Geographical data](#geographical-data)
@@ -222,6 +223,12 @@ Repo | Description | Notes
 [recast](https://github.com/benjamn/recast) | JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator. | Uses [`esprima`](https://github.com/jquery/esprima)\* as the default parser, but can be configured for `acorn` or `@babel/parser`. 
 
 <small>\* `esprima` is one of the more mature ECMAScript parsers.</small>
+
+### Building CLIs
+
+Repo | Description | Notes
+---- | ----------- | -----
+[commander.js](https://github.com/tj/commander.js) | node.js command-line interfaces made easy | 
 
 ## Data sets
 
