@@ -30,6 +30,7 @@ Thanks for stopping by. ✌️
 	* [Machine Learning](#machine-learning)
 	* [Parsing things](#parsing-things)
 	* [Building CLIs](#building-clis)
+	* [Running a server](#running-a-server)
 * [Data sets](#data-sets)
 	* [Language](#language)
 	* [Geographical data](#geographical-data)
@@ -229,6 +230,16 @@ Repo | Description | Notes
 Repo | Description | Notes
 ---- | ----------- | -----
 [commander.js](https://github.com/tj/commander.js) | node.js command-line interfaces made easy | 
+
+### Running a server
+
+I don't have much experience here; in the interim, the most popular Node frameworks for running a server:
+
+Repo | Description | Notes
+---- | ----------- | -----
+[express](https://github.com/expressjs/express) [↪](https://expressjs.com/) | Fast, unopinionated, minimalist web framework for Node.js |
+[koa](https://github.com/koajs/koa) [↪](https://koajs.com/) | Koa is a new web framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs. |
+[hapi](https://github.com/hapijs/hapi) [↪](https://hapijs.com/) | A rich framework for building applications and services |
 
 ## Data sets
 
