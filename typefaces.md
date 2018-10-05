@@ -4,15 +4,16 @@
 
 ### Sans serif
 
-* [__Work Sans__](http://weiweihuanghuang.github.io/Work-Sans/) ([repo](https://github.com/weiweihuanghuang/Work-Sans)) by Wei Huang
+* [__Archivo__](https://www.omnibus-type.com/fonts/archivo/) ([repo](https://github.com/Omnibus-Type/Archivo)) by Hector Gatti / Omnibus—Type; see also [Archivo Narrow](https://www.omnibus-type.com/fonts/archivo-narrow/) and [Archivo Black](https://www.omnibus-type.com/fonts/archivo-black/)
 * [__Barlow__](https://tribby.com/fonts/barlow/) ([repo](https://github.com/jpt/barlow)) by Jeremy Tribby
-* [__Inter UI__](https://rsms.me/inter/) ([repo](https://github.com/rsms/inter)) by Rasmus Andersson
-* [__Sporting Grotesque__](http://www.bretagnebretagne.fr/font/sporting-grotesque-normal) ([repo](https://github.com/velvetyne/Sporting-Grotesque)) by Lucas Le Bihan
-* [__Cooper Hewitt__](https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/) ([repo](https://github.com/cooperhewitt/cooperhewitt-typeface)) by Chester Jenkins
+* [__Cooper Hewitt__](https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/) ([repo](https://github.com/cooperhewitt/cooperhewitt-typeface))<sup>NO-RO</sup> by Chester Jenkins
 * [__Gidole__](http://gidole.github.io/) ([repo](https://github.com/larsenwork/Gidole)) by Andreas Larsen
-* [__Overpass__](http://overpassfont.org/)
-* [__Lunchtype__](http://lunchtype.com/)<sup>NO-RO</sup> by Stefan Wetterstrand
+* [__Inter UI__](https://rsms.me/inter/) ([repo](https://github.com/rsms/inter)) by Rasmus Andersson
 * [__Libre Franklin__](https://github.com/impallari/Libre-Franklin) by Pablo Impallari and Rodrigo Fuenzalida
+* [__Lunchtype__](http://lunchtype.com/)<sup>NO-RO</sup> by Stefan Wetterstrand
+* [__Overpass__](http://overpassfont.org/)
+* [__Sporting Grotesque__](http://www.bretagnebretagne.fr/font/sporting-grotesque-normal) ([repo](https://github.com/velvetyne/Sporting-Grotesque)) by Lucas Le Bihan
+* [__Work Sans__](http://weiweihuanghuang.github.io/Work-Sans/) ([repo](https://github.com/weiweihuanghuang/Work-Sans)) by Wei Huang
 
 ### Serif
 
