@@ -59,12 +59,13 @@ Thanks for stopping by. ✌️
 
 Repo | Description | Notes
 ---- | ----------- | -----
-[quaggaJS](https://github.com/serratus/quaggaJS) | QuaggaJS is a barcode-scanner entirely written in JavaScript supporting real-time localization and decoding of various types of barcodes such as EAN, CODE 128, CODE 39, EAN 8, UPC-A, UPC-C, I2of5 and CODABAR. The library is also capable of using `getUserMedia` to get direct access to the user's camera stream. Although the code relies on heavy image- processing even recent smartphones are capable of locating and decoding barcodes in real-time. | For reading barcodes with a webcam or phone camera. See also [JSBarcode](https://github.com/lindell/JsBarcode) for _generating_ barcodes.
+★ [tesseract.js](https://github.com/naptha/tesseract.js) | Tesseract.js is a javascript library that gets words in almost any language out of images. | 
+★ [jimp](https://github.com/oliver-moran/jimp) An image processing library written entirely in JavaScript for Node, with zero external or native dependencies. | 
 [omggif](https://github.com/deanm/omggif) | JavaScript implementation of a GIF 89a encoder and decoder. | For making GIFs. [Animated_GIF](https://github.com/sole/Animated_GIF), for example, builds on top of this library.
 [exif.js](https://github.com/jseidelin/exif-js) | JavaScript library for reading EXIF image metadata. | Extracting information from JPEG files.
+[quaggaJS](https://github.com/serratus/quaggaJS) | QuaggaJS is a barcode-scanner entirely written in JavaScript supporting real-time localization and decoding of various types of barcodes such as EAN, CODE 128, CODE 39, EAN 8, UPC-A, UPC-C, I2of5 and CODABAR. The library is also capable of using `getUserMedia` to get direct access to the user's camera stream. Although the code relies on heavy image- processing even recent smartphones are capable of locating and decoding barcodes in real-time. | For reading barcodes with a webcam or phone camera. See also [JSBarcode](https://github.com/lindell/JsBarcode) for _generating_ barcodes.
 [Lanczos.js](https://github.com/mudcube/Lanczos.js) | Lancszos image resampling. | This is for resizing images nicely in the browser.
-[tesseract.js](https://github.com/naptha/tesseract.js) | Tesseract.js is a javascript library that gets words in almost any language out of images. | 
-[sharp](https://github.com/lovell/sharp) [↪](http://sharp.dimens.io) | High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP and TIFF images. Uses the libvips library. |
+[sharp](https://github.com/lovell/sharp) [↪](http://sharp.dimens.io) | High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP and TIFF images. Uses the libvips library. | Has native dependencies.
 
 ### Drawing, illustration, motion
 
