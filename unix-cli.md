@@ -7,6 +7,7 @@ _Note:_ I'm writing these commands on macOS and while they're almost always iden
 ## Tools used
 
 * [`find`](https://en.wikipedia.org/wiki/Find_(Unix))
+* [`grep`](https://en.wikipedia.org/wiki/Grep)
 * [`sort`](https://en.wikipedia.org/wiki/Sort_(Unix))
 * [`uniq`](https://en.wikipedia.org/wiki/Uniq)
 * [`wc`](https://en.wikipedia.org/wiki/Wc_(Unix))
@@ -127,3 +128,54 @@ The `find` and `perl` parts are the same, but we've replaced `sort -u` with:
 1. A simple `sort` to sort the occurrences alphabetically, then
 2. `-c`ount the occurrences of `uniq`ue patterns, then
 3. `sort` the patterns again by the number of occurrences (`-n`umeric and `-r`reversed)
+
+### Find the most frequently changed files
+
+This command is adapted from [Software Design X-Rays](https://pragprog.com/book/atevol/software-design-x-rays) by Adam Tornhill: 
+
+```bash
+git log --name-only --diff-filter=M --format=format: | grep -ve '^$' | sort | uniq -c | sort -r
+```
+
+For this repo you're reading, it gives us these results:
+
+```
+  89 README.md
+  10 journal.md
+   7 typefaces.md
+   4 writing.md
+   2 oblique.md
+   2 ffmpeg.md
+   1 unix-cli.md
+   1 react.md
+   1 adobe.md
+```
+
+Let's unpack how it's built:
+
+#### The `git` part
+
+* `git log` shows us the commit history for the current branch in the repository.
+* `--format=format:`, i.e. _use a custom format that is the empty string_, is a trick to remove the commit information (author, date, message, etc.) from the log.
+* `--name-only` shows the files included in each commit.
+* `--diff-filter=M` shows us only the file that have been `M`odified, thus it excludes files from commits where they've been `A`dded or `R`emoved.
+
+#### The `grep` part
+
+The `git log` will contain empty lines between the commits; we'll exclude them from our count using `grep`.
+
+We'll use a regular expression (`-e`). The `^$` pattern (_start of line_ immediately followed by _end of line_) matches any empty line, but by using the `-v` flag to invert the pattern we can pick only the lines that _don't_ match, i.e. are not empty.
+
+#### The `sort` / `uniq` part
+
+* `sort` the lines
+* `-c`ount the occurrences of `uniq`ue lines
+* `sort` the lines again based on the count, `-r`eversed (from largest count to lowest count)
+
+#### Variation: only count changes on files that match a certain pattern
+
+If we replace `grep -ve '^$'` with `grep -e 'some pattern'`, we can limit our count to files whose names match a pattern. For example, targeting JavaScript files with `grep -e '\.js$'` — notice we've removed the `-v` (invert) flag. The full command becomes:
+
+```bash
+git log --name-only --diff-filter=M --format=format: | grep -e '\.js$' | sort | uniq -c | sort -r
+```
