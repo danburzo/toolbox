@@ -1,6 +1,8 @@
-# CSS snippets and one-liners
+# CSS Topics
 
-## `box-sizing: border-box`
+## Snippets and one-liners
+
+### `box-sizing: border-box`
 
 This instructs each HTML element on the page to work on the border box instead of the default context box, and makes it more intuitive to work with widths – especially widths expressed in percentages, which underpin responsive design – in conjunction with borders and paddings.
 
@@ -27,7 +29,7 @@ Two things happen in the expanded version:
 
 [Read more here](http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/)
 
-## Horizontal and vertical alignment
+### Horizontal and vertical alignment
 
 ```css
 { 
@@ -38,12 +40,19 @@ Two things happen in the expanded version:
 }
 ```
 
-## The `object-fit` property
+### The `object-fit` property
 
 TODO
 
-## Further reading
+### Further reading
 
 * [Ten CSS One-Liners to Replace Native Apps](http://alistapart.com/blog/post/ten-css-one-liners-to-replace-native-apps)
 * [30 seconds of CSS](https://github.com/atomiks/30-seconds-of-css)
 * [Michael Scharnagl's tweet](https://twitter.com/justmarkup/status/974573989497593856?s=21)
+
+## Reading materials
+
+### CSS Grid
+
+* [CSS Grid for Designers](https://open.nytimes.com/css-grid-for-designers-f74a883b98f5)
+* 🎥 [Making Future Interfaces: Algorithmic Layout](https://www.youtube.com/watch?time_continue=2&v=qOUtkN6M52M)
