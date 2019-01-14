@@ -81,6 +81,8 @@ Repo | Description | Notes
 [mojs](https://github.com/legomushroom/mojs) | motion graphics toolbelt for the web | 
 [matter-js](https://github.com/liabru/matter-js) | A 2D rigid body physics engine for the web |
 [ccapture.js](https://github.com/spite/ccapture.js/) | A library to capture canvas-based animations at a fixed framerate. |
+[anime.js](https://github.com/juliangarnier/anime/) | Anime.js (/ˈæn.ə.meɪ/) is a lightweight JavaScript animation library with a simple, yet powerful API.
+It works with CSS properties, SVG, DOM attributes and JavaScript Objects. |
 
 ### Data visualization
 
