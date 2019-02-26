@@ -56,3 +56,18 @@ TODO
 
 * [CSS Grid for Designers](https://open.nytimes.com/css-grid-for-designers-f74a883b98f5)
 * 🎥 [Making Future Interfaces: Algorithmic Layout](https://www.youtube.com/watch?time_continue=2&v=qOUtkN6M52M)
+* 🎥 In [Layout Land](https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag), Jen Simmons explains the basics of CSS Grids.
+* [Using CSS Grid the Right Way](https://vgpena.github.io/using-css-grid-the-right-way/)
+* [ A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) over at CSS Tricks
+* [Auto-Sizing Columns in CSS Grid: `auto-fill` vs `auto-fit`](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
+* [CSS Grid Experiments](https://julesforrest.com/css-grid-experiments)
+* [How I design with CSS Grid](https://www.chenhuijing.com/blog/how-i-design-with-css-grid)
+* [Grid to Flex](https://www.gridtoflex.com/)
+* [How to build complicated Grids using CSS Grid](https://danwebb.co/journal/how-to-build-complicated-grids-using-css-grid)
+* [CSS Grid in IE: Debunking Common IE Grid Misconceptions](https://css-tricks.com/css-grid-in-ie-debunking-common-ie-grid-misconceptions/)
+* [CSS Grid for UI Layouts](https://hacks.mozilla.org/2018/02/css-grid-for-ui-layouts/)
+* [GRID](http://grid.malven.co/)
+
+### CSS Flexbox
+
+* [FLEX](http://flexbox.malven.co/)
