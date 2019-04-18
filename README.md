@@ -331,6 +331,14 @@ If you're using Node.js, you can also use the [`serve`](https://npmjs.com/packag
 npx serve
 ```
 
+An even simpler server is [servor](https://github.com/lukejacksonn/servor):
+
+```bash
+npx servor
+```
+
+Also take a look at [budo](https://github.com/mattdesl/budo).
+
 ### Fetch a file from the web
 
 To fetch a file from the web with the command line, using `wget` is straightforward:
