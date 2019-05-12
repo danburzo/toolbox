@@ -44,3 +44,19 @@ Double-click on the prong that sticks out of the _bottom side_ of the box to fit
 Selecting a type area and entering a width / height in the Transform pane will stretch the text instead of resizing the text area and reflowing the text. To achieve the latter, use the Direct Selection tool (<kbd>A</kbd>) to select _just the area_ and not the text inside. In this state, using the width / height inputs from the Transform pane will scale the text area without distoring the text. 
 
 > 💡 You can also set the area's size (along with other options) from the <kbd>Type → Area Type Options…</kbd> menu item.
+
+### Convert an illustration from RGB to CMYK
+
+Some tools, such as ArchiCAD, can only produce color PDFs in the RGB color space. To convert that to a CMYK file ready for offset printing:
+
+1. Open the PDF in Illustrator and change its color space to CMYK by using <kbd>File → Document Color Mode → CMYK</kbd>
+2. Select all objects (<kbd>⌘A</kbd>) and proceed to <kbd>Edit → Edit Colors → Recolor Artwork...</kbd>
+3. In the options dialog:
+	1. <kbd>Color Reduction Options...</kbd>, deselect <kbd>Preserve: Black</kbd>
+	2. Adjust the color picker to use CMYK sliders 
+	3. Select each color, one by one, and cast it to the preferred CMYK values
+	4. You'll mostly want to adjust the blacks and grayscales to only use the K channel
+4. Make sure you overprint blacks to avoid misregistration issues at the offset printer; go to <kbd>Edit → Edit Colors → Overprint Black</kbd>
+5. Use the <kbd>Preview Separations</kbd> panel to make sure the C/M/Y/K plates look as expected.
+
+
