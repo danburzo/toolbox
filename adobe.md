@@ -50,13 +50,12 @@ Selecting a type area and entering a width / height in the Transform pane will s
 Some tools, such as ArchiCAD, can only produce color PDFs in the RGB color space. To convert that to a CMYK file ready for offset printing:
 
 1. Open the PDF in Illustrator and change its color space to CMYK by using <kbd>File → Document Color Mode → CMYK</kbd>
-2. Select all objects (<kbd>⌘A</kbd>) and proceed to <kbd>Edit → Edit Colors → Recolor Artwork...</kbd>
+2. Select all objects (<kbd>⌘A</kbd>) and proceed to <kbd>Edit → Edit Colors → Recolor Artwork…</kbd>
 3. In the options dialog:
-	1. <kbd>Color Reduction Options...</kbd>, deselect <kbd>Preserve: Black</kbd>
-	2. Adjust the color picker to use CMYK sliders 
-	3. Select each color, one by one, and cast it to the preferred CMYK values
-	4. You'll mostly want to adjust the blacks and grayscales to only use the K channel
-4. Make sure you overprint blacks to avoid misregistration issues at the offset printer; go to <kbd>Edit → Edit Colors → Overprint Black</kbd>
-5. Use the <kbd>Preview Separations</kbd> panel to make sure the C/M/Y/K plates look as expected.
+	1. <kbd>Color Reduction Options…</kbd>, __deselect__ <kbd>Preserve: Black</kbd> to be able to map the rich black to K:100 black;
+	2. Switch the color picker to use CMYK sliders;
+	3. Select each color in the list, one by one, and ajust it to the preferred CMYK values. You'll mostly want to adjust the blacks and grayscales to only use the K channel.
+4. Make sure you overprint blacks to avoid misregistration issues at the offset printer; use <kbd>Edit → Edit Colors → Overprint Black…</kbd> to ensure colors underneath are not knocked out
+5. [Use the <kbd>Window → Separations Preview</kbd> panel](https://helpx.adobe.com/illustrator/using/printing-color-separations.html) to make sure the C/M/Y/K plates look as expected.
 
 
