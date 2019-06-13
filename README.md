@@ -173,11 +173,18 @@ Repo | Description | Notes
 
 ### App architecture
 
+#### View libraries
+
 Repo | Description | Notes
 ---- | ----------- | -----
 ★ [react](https://github.com/facebook/react) [↪](https://reactjs.org/) | A declarative, efficient, and flexible JavaScript library for building user interfaces. | 
 [vue](https://github.com/vuejs/vue) [↪](http://vuejs.org/) | Simple yet powerful library for building modern web interfaces. | A lightweight alternative to React.
-[Bluebird](https://github.com/petkaantonov/bluebird) | Bluebird is a full featured promise library with unmatched performance. |
+
+#### Utilities
+
+Repo | Description | Notes
+---- | ----------- | -----
+[page.js](https://github.com/visionmedia/page.js) | Micro client-side router inspired by the Express router
 
 ### Prototyping
 
