@@ -20,7 +20,7 @@ Scripts to include in `package.json`:
 
 __We need a `.nojekyll` file__ in the root of the bundle to [allow underscores in file/folder names](https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/). We'll create this empty file in the `static/` folder of our app.
 
-For a project file, we'll need to configure the prefix for fetching assets to include the repository name.
+For a project file, we'll need to __configure the prefix__ for fetching assets to include the repository name.
 
 Here's what to include in `next.config.js`:
 
