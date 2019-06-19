@@ -54,9 +54,9 @@ module.exports = withCSS({
 	// When building for production 
 	// (as is the case with a static HTML export),
 	// include the repository name as a prefix 
-	// Note: here we're reading the repo name from the `main`
+	// Note: here we're reading the repo name from the `name`
 	// field in package.json, YMMV on this one.
-	assetPrefix: process.env.NODE_ENV === 'production' ? `/${pkg.main}` : ''
+	assetPrefix: process.env.NODE_ENV === 'production' ? `/${pkg.name}` : ''
 });
 ```
 
