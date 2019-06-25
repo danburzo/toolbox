@@ -63,3 +63,13 @@ module.exports = withCSS({
 Finally, note that `gh-pages` won't push dotfiles by default, so we need to use the `--dotfiles` flag in our `deploy` script in `package.json`.
 
 > You may also want to include `rm -rf .next` as the first command in your `yarn deploy` script, as Next.js will [not delete previous builds](https://github.com/zeit/next.js/issues/6009) and will cause files to accumulate on your `gh-pages` branch.
+
+
+## Next.js + MDX
+
+MDX is pretty cool to work with, and Next.js + MDX is a killer combo.
+
+### Limitations
+
+* I wish you could wrap Markdown content in HTML tags / components though. [Discussion here](https://github.com/mdx-js/mdx/issues/241).
+* Next.js does not work out-of-the-box with collocated `.mdx` files (scattered around the source code), you need to have everything in the `pages/` folder.
