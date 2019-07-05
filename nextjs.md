@@ -72,4 +72,5 @@ MDX is pretty cool to work with, and Next.js + MDX is a killer combo.
 ### Limitations
 
 * I wish you could wrap Markdown content in HTML tags / components though. [Discussion here](https://github.com/mdx-js/mdx/issues/241).
-* Next.js does not work out-of-the-box with collocated `.mdx` files (scattered around the source code), you need to have everything in the `pages/` folder.
+* Next.js does not work out-of-the-box with collocated `.mdx` files (scattered around the source code), you need to have everything in the `pages/` folder. 
+[Dynamic Routes](https://github.com/zeit/next.js/issues/7607) should be cool.
