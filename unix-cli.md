@@ -6,6 +6,7 @@ _Note:_ I'm writing these commands on macOS and while they're almost always iden
 
 ## Tools used
 
+* [`awk`](https://en.wikipedia.org/wiki/AWK)
 * [`find`](https://en.wikipedia.org/wiki/Find_(Unix))
 * [`grep`](https://en.wikipedia.org/wiki/Grep)
 * [`sort`](https://en.wikipedia.org/wiki/Sort_(Unix))
@@ -178,4 +179,10 @@ If we replace `grep -ve '^$'` with `grep -e 'some pattern'`, we can limit our co
 
 ```bash
 git log --name-only --diff-filter=M --format=format: | grep -e '\.js$' | sort | uniq -c | sort -r
+```
+
+### Sort files by number of lines changed on a Git branch
+
+```bash
+git diff --stat origin/master HEAD | awk '{ print $3, $1 }' | sort -rn
 ```

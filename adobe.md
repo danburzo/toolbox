@@ -4,6 +4,19 @@
 
 ## Illustrator
 
+### Working with paths
+
+#### Starting a new path from an existing anchor point
+
+When you try to start a new path from an anchor point of a different path, just clicking the anchor removes it. Instead, the solution is to:
+
+1. Click and hold on an empty area
+2. Hold down the <kbd>Space</kbd> key to move the anchor
+3. With _Smart guides_ enabled, you should be able to snap the anchor point to the existingn anchor point from where you initially wanted to start the new path
+4. Release <kbd>Space</kbd> and continue as usual
+
+Also, it seems that (at least in Illustrator CC 2019) you can hold down <kbd>Shift</kbd> when creating the initial anchor point.
+
 ### Working with SVG
 
 #### Pasting copied objects as SVG
