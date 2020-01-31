@@ -51,3 +51,20 @@ done
 ```
 
 This will run the crop command on an image at a time, so you'll notice the `cropped` sub-folder fill up steadily.
+
+### Resize an image to fit a certain size
+
+In the example below, we resize an image so that it fits within a 1000px &times; 1000px box, while maintaining its aspect ratio (analogous to using `object-fit: contain` in CSS):
+
+```bash
+magick my_image.jpg \
+	-gamma .45455 \
+	-resize 1000x1000 \
+	-unsharp 1.8x1.3+0.4+0 \
+	-gamma 2.2 \
+	my_image_resized.jpg
+```
+
+We use the `-gamma` option to decode the image to linear encoding, and then change it back to 2.2 after the resize — this is mentioned in the ImageMagick docs for `-resize`, but I'm not sure why it's necessary.
+
+After resize we sharpen the image using the `-unsharp` option. Its arguments are a bit abstruse, but I found [an article on the topic](https://www.princexml.com/doc/properties/prince-image-resolution/) with some good rules of thumb.
