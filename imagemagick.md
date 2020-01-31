@@ -67,4 +67,4 @@ magick my_image.jpg \
 
 We use the `-gamma` option to decode the image to linear encoding, and then change it back to 2.2 after the resize — this is mentioned in the ImageMagick docs for `-resize`, but I'm not sure why it's necessary.
 
-After resize we sharpen the image using the `-unsharp` option. Its arguments are a bit abstruse, but I found [an article on the topic](https://www.princexml.com/doc/properties/prince-image-resolution/) with some good rules of thumb.
+After resize we sharpen the image using the `-unsharp` option. Its arguments are a bit abstruse, but I found [an article on the topic](https://redskiesatnight.com/2005/04/06/sharpening-using-image-magick/) with some good rules of thumb.
