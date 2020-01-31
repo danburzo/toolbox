@@ -41,16 +41,10 @@ The command is not particularly fast, and it takes a while for _any_ output to s
 
 ```bash
 mkdir -p cropped && \
-for i in *.jpg; do \
-	magick $i \
-		-set filename:name "%t" \
-		-gravity Center \
-		-crop 1:1 \
-	"cropped/%[filename:name].jpg"; \
-done
+for img in *.jpg; do magick $img -gravity Center -crop 1:1 "cropped/$img.jpg"; done
 ```
 
-This will run the crop command on an image at a time, so you'll notice the `cropped` sub-folder fill up steadily.
+This will run the crop command on an image at a time, so you'll notice the `cropped` sub-folder fill up steadily. Using Bash we can avoid the `-set` parameter and just use our `$img` identifier.
 
 ### Resize an image to fit a certain size
 
