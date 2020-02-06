@@ -6,6 +6,7 @@
 
 * [__Archivo__](https://www.omnibus-type.com/fonts/archivo/) ([repo](https://github.com/Omnibus-Type/Archivo)) by Hector Gatti / Omnibus—Type; see also [Archivo Narrow](https://www.omnibus-type.com/fonts/archivo-narrow/) and [Archivo Black](https://www.omnibus-type.com/fonts/archivo-black/)
 * [__Barlow__](https://tribby.com/fonts/barlow/) ([repo](https://github.com/jpt/barlow)) by Jeremy Tribby
+* [__Bebas Neue__](https://bebasneue.com/)([repo](https://github.com/dharmatype/Bebas-Neue)) by Ryoichi Tsunekawa
 * [__Cooper Hewitt__](https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/) ([repo](https://github.com/cooperhewitt/cooperhewitt-typeface))<sup>NO-RO</sup> by Chester Jenkins
 * [__Gidole__](http://gidole.github.io/) ([repo](https://github.com/larsenwork/Gidole)) by Andreas Larsen
 * [__Inter UI__](https://rsms.me/inter/) ([repo](https://github.com/rsms/inter)) by Rasmus Andersson
@@ -32,9 +33,11 @@
 ## Superfamilies
 
 * [__IBM Plex__](https://www.ibm.com/plex/) ([repo](https://github.com/IBM/plex/))
+* [__Reforma__](https://pampatype.com/reforma) by PampaType
 
 ## Foundries
 
+* [Omnibus Type](https://www.omnibus-type.com/)
 * [The League of Moveable Type](https://www.theleagueofmoveabletype.com/)
 * [Velvetyne](http://www.velvetyne.fr)
 
