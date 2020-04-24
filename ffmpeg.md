@@ -22,6 +22,8 @@ The straightforward way is to:
 ffmpeg -i my-recording.mov -pix_fmt rgb24 output.gif
 ```
 
+> Note that recent versions of `ffmpeg`, such as the `v4.2.2` I'm on at the time of writing, can convert a video to a GIF without having to specify `-pix_fmt rgb24`.
+
 A few useful parameters to include:
 
 * `-r` controls the framerate of the GIF
@@ -30,12 +32,32 @@ A few useful parameters to include:
 The example below outputs a 320 &times; 240 GIF with 10 frames per second:
 
 ```bash
-ffmpeg -i my-recording.mov -pix_fmt rgb24 -r 10 -s 320x240 output.gif
+ffmpeg -i my-recording.mov -r 10 -s 320x240 output.gif
 ```
 
-However, this method tends to output poorer-quality GIFs. A more complicated solution is explained in this [answer on the Super User StackExchange](https://superuser.com/a/556031), along with an article [detailing how to obtain better-looking GIFs from `ffmpeg`](http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html).
+The `-s` parameter distorts the input video to fit the specified size. If instead you want to maintain the original aspect ratio, use the `scale` filter, to which `-s` is actually a shortcut, directly:
+
+```bash
+ffmpeg -i my-recording.mov -vf scale=320:-1 output.gif
+```
+
+Use `-1` as `auto` when specifying the scale. 
+
+To [speed up the video](https://trac.ffmpeg.org/wiki/How%20to%20speed%20up%20/%20slow%20down%20a%20video), use the `setpts` filter:
+
+```bash
+ffmpeg -i my-recording.mov -filter:v "setpts=0.5*PTS" my-recording-sped-up.mp4
+```
+
+The command above makes an MP4 video at twice the speed of the original MOV. For some reason I couldn't apply the `setpts` filter in a direct MOV to GIF pipeline, so I'm first making a sped-up MP4, then converting that to a GIF.
+
+--- 
+
+This method tends to output poorer-quality GIFs. A more complicated solution is explained in this [answer on the Super User StackExchange](https://superuser.com/a/556031), along with an article [detailing how to obtain better-looking GIFs from `ffmpeg`](http://blog.pkh.me/p/21-high-quality-gif-with-ffmpeg.html).
 
 [This gist](https://gist.github.com/dergachev/4627207) walks you through creating a GIF with `ffmpeg` and `gifsicle`.
+
+See also [this article from GIPHY Engineering](https://engineering.giphy.com/how-to-make-gifs-with-ffmpeg/).
 
 ## Looping a video N times
 
