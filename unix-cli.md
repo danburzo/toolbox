@@ -7,8 +7,11 @@ _Note:_ I'm writing these commands on macOS and while they're almost always iden
 ## Tools used
 
 * [`awk`](https://en.wikipedia.org/wiki/AWK)
+* [`diff`](https://en.wikipedia.org/wiki/Diff)
 * [`find`](https://en.wikipedia.org/wiki/Find_(Unix))
 * [`grep`](https://en.wikipedia.org/wiki/Grep)
+* [`join`](https://en.wikipedia.org/wiki/Join_(Unix))
+* [`sed`](https://en.wikipedia.org/wiki/Sed)
 * [`sort`](https://en.wikipedia.org/wiki/Sort_(Unix))
 * [`uniq`](https://en.wikipedia.org/wiki/Uniq)
 * [`wc`](https://en.wikipedia.org/wiki/Wc_(Unix))
@@ -21,6 +24,16 @@ man <command>
 ```
 
 > 👉 The `man` help pages can sometimes be hard to understand. [`tldr`](https://github.com/tldr-pages/tldr) is a community-driven effort to offer clearer examples of each command, so you might want to look into it.
+
+## General tidbits
+
+### Adding a newline character to a command argument
+
+Use the `$'…'` format to have `\n` be interpreted as a newline character.
+
+```bash
+my-command --text=$'Hello\nWorld'
+```
 
 ## Tricks to aid refactoring
 
@@ -186,3 +199,76 @@ git log --name-only --diff-filter=M --format=format: | grep -e '\.js$' | sort | 
 ```bash
 git diff --stat origin/master HEAD | awk '{ print $3, $1 }' | sort -rn
 ```
+
+### Find the differences between the output of two commands
+
+The general formula is: 
+
+```bash
+diff <( ... command 1 goes here ... ) <( ... command 2 goes here ... )
+```
+
+It works even with `curl` (the `-s` is for silent):
+
+```bash
+diff <(curl -s http://example.com/1) <(curl -s http://example.com/2)
+```
+
+### Find files who don't have counterparts, and create them
+
+Some static site generators' multilanguage features work by creating separate Markdown files for each language, e.g. `about.md` for English and `about.de.md` for German.
+
+To find which `.md` files don't have their equivalent `.de.md` file:
+
+```bash
+join -v 1 \
+  <(find . -name "*.md" -not -name "*.de.md" | sort) \
+  <(find . -name "*.de.md" | sed -E "s/\.de\.md/\.md/" | sort)
+```
+
+The first `find` gets us the list of `.md` files in English (i.e. Markdowns that don't end in `.de.md`). 
+
+The second `find` gets us the list of `.md` files in German (ending in `*.de.md` ), then we use `sed` to replace `.de.md` with `.md`. 
+
+> Note: We `sort` the output of both `find` commands, because the `join` command expects it. But in this case, both being the output of a `find` command, it may not be needed?
+
+The `join -v 1` prints out all the lines in `file 1` (English) which are not matched by a line in `file 2` (German). 
+
+Now, let's copy over the English version for German files we haven't found:
+
+```bash
+join -v 1 \
+  <(find . -name "*.md" -not -name "*.de.md" | sort) \
+  <(find . -name "*.de.md" | sed -E "s/\.de\.md/\.md/" | sort) \
+  | sed "p;s/\.md/\.de\.md/" | xargs -n2 cp
+```
+
+We reach for `sed` once more to produce the the original line (with `p;`), followed by the same line with `.md` changed back to `.de.md`. With this input:
+
+```
+my-file.md
+my-other-file.md
+```
+
+we get:
+
+```
+my-file.md
+my-file.de.md
+my-other-file.md
+my-other-file.de.md
+```
+
+`xargs` takes the input two lines at a time (`-n2`) and uses them as the first, and the second argument to `cp`, respectively. Something like:
+
+```bash
+cp my-file.md my-file.de.md
+cp my-other-file.md my-other-file.de.md
+```
+
+Alternatively we can use the `-n` option in `cp`, which only makes a copy of the file if the destination file doesn't already exist, to avoid having to run two separate `find`s and a `join`:
+
+```bash
+find . -name "*.md" -not -name "*.de.md" | sed "p;s/\.md/\.de\.md/" | xargs -n2 cp -n
+```
+
