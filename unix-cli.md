@@ -272,3 +272,176 @@ Alternatively we can use the `-n` option in `cp`, which only makes a copy of the
 find . -name "*.md" -not -name "*.de.md" | sed "p;s/\.md/\.de\.md/" | xargs -n2 cp -n
 ```
 
+### Change files from JSON to JS modules
+
+To work around the limitations of the format, I needed to convert hundreds of files from JSON to JS modules that export plain objects. 
+
+#### Step 1: batch rename
+
+As a variation of the previous pattern, to rename (i.e. move) files matching a certain pattern:
+
+```bash
+find . -name "*.json" | sed "p;s/\.json/\.data\.js/" | xargs -n2 mv
+```
+
+#### Step 2: add in `export default`
+
+We want to change the files from:
+
+_sample.json_
+```json
+{
+  "some_key": "some_value"
+}
+```
+
+to:
+
+_sample.data.js_
+```js
+module.exports = {
+  "some_key": "some_value"
+}
+```
+
+For this, we'll use `sed` to replace the content of the first line:
+
+```bash
+find . -name '*.data.js' | xargs -n1 sed -i "" '1s/^.*$/export default \{/'
+```
+
+* the `-i` flag instructs `sed` to make the substitution in-place (in the same file); for the BSD version of `sed` that ships with macOS, doing that without making backup files [is done with `-i ""`](https://unix.stackexchange.com/questions/401905/bsd-sed-vs-gnu-sed-and-i);
+* the `1` applies the `s`(ubstitute) command to the first line in each file, and the `^.+$` regular expression matches the entire line.
+
+Note: when addressing specific lines, we _must_ use the `-n1` flag on `xargs` to have `sed` run on each individual file. We want:
+
+```bash
+sed file1
+sed file2
+sed file3
+# etc.
+```
+
+Instead of:
+
+```bash
+sed file1 file2 file3 ...
+```
+
+Because the line addressing _works cumulatively_ across all input files, meaning `1` only matches the first line in the first file. 
+
+#### Step 3: add an `import` statement
+
+One of the reasons to switch from JSON to JS was to make some strings amenable to localization. For that I needed to add an import statement at the beginning of each file:
+
+```js
+import { t } from 'js/i18n';
+
+// rest of the file.
+```
+
+A word of caution about the `sed` that comes with macOS:
+
+* [it doesn't have a flag to show its version](https://stackoverflow.com/questions/37639496/how-can-i-check-the-version-of-sed-in-os-x); it's also probably pretty old;
+* [it's a bit awkward about inserting `\n` characters](https://www.linuxquestions.org/questions/linux-software-2/sed-insert-a-newline-why-does-not-it-work-158806/#post5137548)
+
+##### First attempt: a false start
+
+To match the beginning of the first line in sed, we can use `1s/^/.../`. We'd like to add our import statement there, followed by a couple of newline breaks. At this point, I was convinced there's no way to coerce macOS `sed` to insert newlines, so I'm thinking: MacBook keyboards come with a suprinsingly-handy `§` button, can we work around the `\n` problem by using the separate `tr` program? Something like:
+
+```bash
+sed "1s#^#import { t } from 'js/i18n';§§#" my-file.data.js | tr § '\n'
+```
+
+There's a lot going on, so let's unpack it. For the `sed` part:
+
+* `1` addresses the first line in the file;
+* `s` is the substitute command, used here with the `#` character instead of the customary `/` character (you can use any other character, for that matter), because we have the latter as part of our replacemenet text and it makes things a bit easier to read;
+* `^` matches the beginning of the line;
+* after the replacement text, we add `§§` which are supposed to become a couple of newline characters.
+
+Since we want to pipe the `sed` output to the `tr` command — which will replace each occurrence of the `§` character with `\n` — we're not using the `-i` (in-place) flag like before.
+
+And here's our first roadblock. If we were to pipe the output back to the original file (like `-i` did before):
+
+```bash
+sed "1s#^#...§§#" my-file.data.js | tr § '\n' > my-file.data.js
+```
+
+We'd notice that `my-file.data.js` ends up empty. That's because redirecting `stdout` to our file via the `>` operator [immediately opens (and truncates) our file](https://unix.stackexchange.com/questions/591855/writing-to-same-file-as-part-of-a-for-loop-generates-an-empty-file) before `sed` even has the chance to read it. 
+
+There's a command called `sponge` that you need to install separately (with `brew install moreutils`) [for this exact purpose](https://unix.stackexchange.com/questions/207919/sponge-from-moreutils-whats-the-difference-to-shell-redirect-useful-examples):
+
+```bash
+sed "1s#^#...§§#" my-file.data.js | tr § '\n' | sponge my-file.data.js
+```
+
+But using `sponge` introduces a new dependency, surely there must be some sort of POSIX command, or a combination thereof, to obtain a similar result. [`tee`](https://en.wikipedia.org/wiki/Tee_(command)) sounds like it would allow you to write back to the original file:
+
+```bash
+sed "1s#^#...§§#" my-file.data.js | tr § '\n' | tee my-file.data.js
+```
+
+But the way `tee` works makes it [an unreliable replacement for `sponge`](https://stackoverflow.com/questions/33638511/differences-between-sponge-and-tee), and it does seem like vanilla alternatives [revolve around writing to a temporary file](https://unix.stackexchange.com/questions/543541/is-there-a-standard-alternative-to-sponge-to-pipe-a-file-into-itself), then `mv`-ing it over the original file. Ugh. 
+
+We're already stuck, and we haven't even figured out how to make this idea work on a whole batch of files, since running [multiple commands with `xargs`](https://unix.stackexchange.com/questions/56734/xargs-using-same-argument-in-multiple-commands) entails writing the compound command as a string and running it with `sh`, making the entire command something along the lines of:
+
+```bash
+find . -name '*.data.js' | xargs -n1 -I__FILE__ sh -c "sed \"1s#^#import { t } from 'js/i18n';§§#\" __FILE__ | tr § '\n' | sponge __FILE__"
+```
+
+Yikes!
+
+##### Second attempt: a light at the end of the tunnel
+
+Sometimes you read the wrong Stack Overflow answer, or read the right answer poorly, and off you go on a false premise. 
+
+It turns out you actually [_can_ insert `\n` characters](https://stackoverflow.com/questions/723157/how-to-insert-a-newline-in-front-of-a-pattern) with `sed` on macOS?! Our struggle resolves to this pithy one- (well, technically two-) liner:
+
+```bash
+find . -name '*.txt' | xargs -n1 \
+sed -i "" $'1s#^#import { t } from \'js/i18n\';\\\n\\\n#'
+```
+
+Using `$'...'` makes the whole sed command a C-style string which replaces `\\` with `\` and `\n` with a literal newline, making it equivalent to:
+
+```
+1s#^#import { t } from 'js/i18n';\
+\
+#
+```
+
+> For the sake of completeness, you might also want to take a look at [using `cat` and `echo` to prepend a line](https://www.commandlinefu.com/commands/view/14354/prepend-text-to-a-file). 
+
+#### Step 5: replace some things with some other things
+
+Okay, now that we've imported the `t` function, let's apply it to some strings in our JS file; that is, to turn this:
+
+```js
+import { t } from 'js/i18n';
+
+module.exports = {
+  "some_key": "some_value"
+}
+```
+
+to this:
+
+```js
+import { t } from 'js/i18n';
+
+module.exports = {
+  "some_key": t`some_value`
+}
+```
+
+This is done by capturing `some_value` and using a back-reference to wrap `t` around it:
+
+```bash
+find . -name '*.txt' | xargs -n1 \
+sed -E 's/("mykey"): "([^"]*)"/\1: t`\2`/g'
+```
+
+[By default, `sed` works with BRE](https://stackoverflow.com/questions/4453760/how-to-escape-plus-sign-on-mac-os-x-bsd-sed) (basic regular expressions), which lack some of the comforts of their modern counterparts. Running it with the `-E` flag interprets regular expressions as _extended_.
+
+> Note: we match `some_value` by `[^"]*`, i.e. a sequence of zero or more non-quote characters. This is not entirely correct, as JavaScript strings can contain (escaped) quote characters, or span multiple lines.
