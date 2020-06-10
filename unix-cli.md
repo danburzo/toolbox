@@ -445,3 +445,5 @@ sed -E 's/("mykey"): "([^"]*)"/\1: t`\2`/g'
 [By default, `sed` works with BRE](https://stackoverflow.com/questions/4453760/how-to-escape-plus-sign-on-mac-os-x-bsd-sed) (basic regular expressions), which lack some of the comforts of their modern counterparts. Running it with the `-E` flag interprets regular expressions as _extended_.
 
 > Note: we match `some_value` by `[^"]*`, i.e. a sequence of zero or more non-quote characters. This is not entirely correct, as JavaScript strings can contain (escaped) quote characters, or span multiple lines.
+
+See also: [What is the purpose of `-e` in a `sed` command?](https://unix.stackexchange.com/questions/33157/what-is-the-purpose-of-e-in-sed-command)
