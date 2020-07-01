@@ -27,6 +27,10 @@ man <command>
 
 ## General tidbits
 
+### Additional resources
+
+* [Explainshell](https://explainshell.com/)
+
 ### Adding a newline character to a command argument
 
 Use the `$'…'` format to have `\n` be interpreted as a newline character.
