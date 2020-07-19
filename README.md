@@ -289,16 +289,55 @@ Link | Description | Notes
 
 ## Command-Line Tools
 
-Link | Description | Notes
----- | ----------- | -----
-[fonttools](https://github.com/behdad/fonttools/) | | Does TTF/OTF conversion to and from XML. This allows you to edit fonts (e.g. metadata) in plain-text and then rebuild them.
-[Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis) | | Helps you filter & merge OpenStreetMap data files (XML, PBF).
-[textkit](https://github.com/learntextvis/textkit) | Command line tool for manipulating and analyzing text |
-[electron-pdf](https://github.com/fraserxu/electron-pdf) | A command line tool to generate PDF from URL, HTML or Markdown files. |
-[unproject_text](https://github.com/mzucker/unproject_text) [article](https://mzucker.github.io/2016/10/11/unprojecting-text-with-ellipses.html) | Perspective recovery of text using transformed ellipses. | A Python script to adjust the perspective for scanned/photographed pages of texts, making it easier to run Optical Character Recognition on it.
-[page_dewarp](https://github.com/mzucker/page_dewarp) [article](https://mzucker.github.io/2016/08/15/page-dewarping.html) | Page dewarping and thresholding using a "cubic sheet" model. |
-[pup](https://github.com/ericchiang/pup) | pup is a command line tool for processing HTML. It reads from stdin, prints to stdout, and allows the user to filter parts of the page using CSS selectors. | Should work great with `wget` for web page data extraction.
-RAISR | [Google Rapid and Accurate Image Super Resolution](https://arxiv.org/pdf/1606.01299.pdf) is a technique to use Machine Learning to upscale images. | There are a few implementations of the algorithm on GitHub: [movehand/raisr](https://github.com/movehand/raisr), [MKFMIKU/RAISR](https://github.com/MKFMIKU/RAISR)
+### General purpose
+
+#### [puppeteer](https://github.com/puppeteer/puppeteer/)
+
+Run a headless version of Chrome from Node.js
+
+> See also [alternatives and to standard command-line tools](./alt-cli.md).
+
+### Working with specific formats
+
+#### [`jq`](https://stedolan.github.io/jq/)
+
+For processing JSON files. [Reshaping JSON with `jq`](https://programminghistorian.org/en/lessons/json-and-jq). 
+
+See also: [`fx`](https://github.com/antonmedv/fx), [`gron`](https://github.com/tomnomnom/gron)
+
+#### [`pup`](https://github.com/ericchiang/pup)
+
+For processing HTML. It reads from stdin, prints to stdout, and allows the user to filter parts of the page using CSS selectors.
+
+Should work great with `wget` for web page data extraction.
+
+#### [`fonttools`](https://github.com/fonttools/fonttools/) 
+
+Does TTF/OTF conversion to and from XML. This allows you to edit fonts (e.g. metadata) in plain-text and then rebuild them.
+
+#### [`osmosis`](https://github.com/openstreetmap/osmosis)
+
+Filter & merge OpenStreetMap data files (XML, PBF).
+
+#### [`electron-pdf`](https://github.com/fraserxu/electron-pdf) 
+
+Generate a PDF from an URL, HTML or Markdown file.
+
+#### [`textkit`](https://github.com/learntextvis/textkit) 
+
+For manipulating and analyzing text.
+
+### Utilities
+
+#### For de-warping scans
+
+[unproject_text](https://github.com/mzucker/unproject_text): perspective recovery of text using transformed ellipses. [Write-up](https://mzucker.github.io/2016/10/11/unprojecting-text-with-ellipses.html).
+
+[page_dewarp](https://github.com/mzucker/page_dewarp): page dewarping and thresholding using a "cubic sheet" model. [Write-up](https://mzucker.github.io/2016/08/15/page-dewarping.html).
+
+#### For upscaling images
+
+RAISR: [Google Rapid and Accurate Image Super Resolution](https://arxiv.org/pdf/1606.01299.pdf) is a technique to use Machine Learning to upscale images. There are a few implementations of the algorithm on GitHub: [movehand/raisr](https://github.com/movehand/raisr), [MKFMIKU/RAISR](https://github.com/MKFMIKU/RAISR)
 
 ---
 
