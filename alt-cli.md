@@ -18,3 +18,9 @@
 
 * [`ag`](https://github.com/ggreer/the_silver_searcher)
 
+## Other tools
+
+### Benchmarking
+
+* [`hyperfine`](https://github.com/sharkdp/hyperfine)
+* [`bench`](https://github.com/Gabriel439/bench)

@@ -240,6 +240,9 @@ Repo | Description | Notes
 Repo | Description | Notes
 ---- | ----------- | -----
 [commander.js](https://github.com/tj/commander.js) | node.js command-line interfaces made easy | 
+[sade](https://github.com/lukeed/sade) ||
+
+[12 Factor CLI apps](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)
 
 ### Running a server
 
@@ -299,6 +302,8 @@ Run a headless version of Chrome from Node.js
 
 ### Working with specific formats
 
+> See also: [structured text tools](https://github.com/dbohdan/structured-text-tools)
+
 #### [`jq`](https://stedolan.github.io/jq/)
 
 For processing JSON files. [Reshaping JSON with `jq`](https://programminghistorian.org/en/lessons/json-and-jq). 
@@ -326,6 +331,14 @@ Generate a PDF from an URL, HTML or Markdown file.
 #### [`textkit`](https://github.com/learntextvis/textkit) 
 
 For manipulating and analyzing text.
+
+#### [`monolith`](https://github.com/Y2Z/monolith)
+
+For saving complete web pages as a single HTML file.
+
+#### [`csvkit`](https://github.com/wireservice/csvkit)
+
+A suite of utilities for converting to and working with CSV, the king of tabular file formats. 
 
 ### Utilities
 
