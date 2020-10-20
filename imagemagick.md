@@ -62,3 +62,11 @@ magick my_image.jpg \
 We use the `-gamma` option to decode the image to linear encoding, and then change it back to 2.2 after the resize — this is mentioned in the ImageMagick docs for `-resize`, but I'm not sure why it's necessary.
 
 After resize we sharpen the image using the `-unsharp` option. Its arguments are a bit abstruse, but I found [an article on the topic](https://redskiesatnight.com/2005/04/06/sharpening-using-image-magick/) with some good rules of thumb.
+
+### Suffix image filenames with their width and height
+
+```bash
+find . -type f -iname "*.png" | \
+xargs -L1 magick identify -format "%i\n%d/%t-%wx%h.%e\n" | \
+xargs -L2 mv
+```
