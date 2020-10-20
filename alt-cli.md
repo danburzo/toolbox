@@ -18,6 +18,10 @@
 
 * [`ag`](https://github.com/ggreer/the_silver_searcher)
 
+#### `curl`
+
+* [`httpie`](https://github.com/jakubroztocil/httpie)
+
 ## Other tools
 
 ### Benchmarking

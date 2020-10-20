@@ -155,12 +155,11 @@ Repo | Description | Notes
 
 ### Working with documents
 
-Repo | Description | Notes
----- | ----------- | -----
-[pdf.js](https://github.com/mozilla/pdf.js/) | PDF reader in JavaScript. |
+To create PDFs from scratch, look at [pdfkit](https://github.com/foliojs/pdfkit) and [jsPDF](https://github.com/MrRio/jsPDF). To create and edit existing PDF files, [pdf-lib](https://github.com/Hopding/pdf-lib). To view PDFs, see [pdf.js](https://github.com/mozilla/pdf.js/).
+
+__EPUB.__ [starter-book](https://github.com/SaraVieira/starter-book) / [perfect-edition](https://github.com/robinsloan/perfect-edition).
+
 [pdf2json](https://github.com/modesty/pdf2json) | A PDF file parser that converts PDF binaries to text-based JSON, powered by a fork of pdf.js |
-[pdfkit](https://github.com/devongovett/pdfkit) | A JavaScript PDF generation library for Node and the browser |
-[jsPDF](https://github.com/MrRio/jsPDF) | Generate PDF files in JavaScript. |
 [epub.js](https://github.com/futurepress/epub.js/) | EPUBs in the browser. |
 [magicbook](https://github.com/magicbookproject/magicbook) | It aims to be the best free tool for creating print and digital books from a single source. |
 
@@ -448,6 +447,10 @@ __Extra credit:__ This is super-useful for hosting video files, since S3 support
 ### `wget`
 
 [See the list of recipes](./wget.md)
+
+### `npm`
+
+[See the list of recipes](./npm.md)
 
 ### Unix command-line tools
 
