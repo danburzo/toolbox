@@ -24,6 +24,10 @@
 
 ## Other tools
 
+### Data formats
+
+* [`gron`](https://github.com/tomnomnom/gron) — makes JSON greppable
+
 ### Benchmarking
 
 * [`hyperfine`](https://github.com/sharkdp/hyperfine)
