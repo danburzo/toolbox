@@ -8,7 +8,7 @@ When running `npm run <script-name>`, the attached command gets executed within 
 {src,test}/**/*.js
 ```
 
-...is expanded differently in GNU sh, versus bash or zsh, leading to subtle bugs. Instead, defer the glob expansion to the particular tool you're running, if it has this feature:
+...is expanded differently in bash, versus zsh, leading to subtle bugs. Instead, defer the glob expansion to the particular tool you're running, if it has this feature:
 
 ```js
 {
