@@ -46,6 +46,7 @@
 * [Beautiful Web Type](http://beautifulwebtype.com/)
 * [awesome-fonts](https://github.com/brabadu/awesome-fonts)
 * [Use & Modify](http://usemodify.com/) (See [this issue](https://github.com/raphaelbastide/usemodify/issues/1) for fonts not included on the website)
+* [Fontshare](https://www.fontshare.com/)
 
 ---
 
