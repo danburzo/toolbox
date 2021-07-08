@@ -11,7 +11,7 @@ Here are some useful tricks with `wget`. [More of them here](http://www.labnol.o
 ### Mirror a website
 
 ```
-wget --mirror --no-clobber --no-parent --wait=3 --execute robots=off --domains=danburzo.ro,assets.danburzo.ro ‐‐user-agent=Mozilla danburzo.ro
+wget --mirror --no-clobber --no-parent --wait=3 --execute robots=off --domains=danburzo.ro,assets.danburzo.ro --user-agent=Mozilla danburzo.ro
 ```
 
 A quick explanation for these flags: 
@@ -35,5 +35,9 @@ wget http://example.com/records/{1..1000}
 The URLs can be specified in a separate file `list-of-URLs.txt`, with one URL per line.
 
 ```
-wget ‐‐input list-of-URLs.txt
+wget --input list-of-URLs.txt
 ```
+
+## Further reading
+
+* [Pre-rendering static websites with `wget`](https://apex.sh/blog/post/pre-render-wget/)

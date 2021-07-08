@@ -42,7 +42,6 @@ Thanks for stopping by. ✌️
 	* [Start a server for a folder](#start-a-server-for-a-folder)
 	* [Fetch a file from the web](#fetch-a-file-from-the-web)
 	* [Make an S3 bucket publicly available](#make-an-s3-bucket-publicly-available) 
-	* [`wget` for website mirroring / scraping](#wget-for-website-mirroring--scraping)
 * [Cheatsheets & recipes](#cheatsheets--recipes)
 	* [`ffmpeg`](#ffmpeg)
 	* [`wget`](#wget)
