@@ -38,6 +38,15 @@ The URLs can be specified in a separate file `list-of-URLs.txt`, with one URL pe
 wget --input list-of-URLs.txt
 ```
 
+## Other usages
+
+### Find broken links
+
+```
+wget --recursive --level=0 --spider danburzo.ro 
+
+```
+
 ## Further reading
 
 * [Pre-rendering static websites with `wget`](https://apex.sh/blog/post/pre-render-wget/)
