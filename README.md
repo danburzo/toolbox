@@ -1,16 +1,21 @@
 # Toolbox
 
-This is a collection of tricks, tools, libraries, APIs and data sources for creative projects. It's a reference as well as a compendium of things you can do in the browser and the command line.
+This is my collection of useful tricks, tools, libraries, APIs, data sources & other fun things.
 
-Although this is a list of mostly Github-hosted tools, it's different from [`awesome-*`](https://github.com/sindresorhus/awesome) lists in that I try to avoid having several things with overlapping purposes and only include what I consider to be the excellent ones: tools that are easy to install, elegant to work with, and well documented &mdash; plus some quirky outliers for good fun.
+## Separate pages
 
-I've been inspired to keep this list, and name it as such, by [javierarce/toolbox](https://github.com/javierarce/toolbox), which serves a similar purpose and contains great resources that I recommend you check out. 
+* [Tips for Unix command-line tools](./unix-cli.md) and [Modern alternatives for them](./alt-cli.md)
+* [ImageMagick recipes](./imagemagick.md)
+* [`ffmpeg` recipes](./ffmpeg.md)
+* [`npm` gotchas](./npm.md)
+* [`wget` recipes](./wget.md)
+* [Git recipes](./git.md), and [notes on Git LFS](./git-lfs.md)
+* [Exemplary MySQL queries](./mysql.md)
+* [A few good open-source typefaces](./typefaces.md)
+* [new mac, who dis?](./whodis.md)
+* [Notes on Adobe products](./adobe.md)
 
-Contributions to this list are welcome via [issues](https://github.com/danburzo/toolbox/issues) and [pull requests](https://github.com/danburzo/toolbox/pulls) &mdash; I'm always looking for new ideas!
-
-Thanks for stopping by. ✌️
-
-## Table of Contents
+## On this page
 
 * [JavaScript libraries](#javascript-libraries)
 	* [Image processing, OCR](#image-processing-optical-character-recognition-ocr)
@@ -18,7 +23,6 @@ Thanks for stopping by. ✌️
 	* [Data visualization](#data-visualization)
 	* [3D, Virtual Reality](#3d-vr)
 	* [Audio](#audio)
-	* [User Interfaces](#user-interfaces)
 	* [Mapping](#mapping)
 	* [Gamemaking](#gamemaking)
 	* [Working with documents](#working-with-documents)
@@ -27,14 +31,9 @@ Thanks for stopping by. ✌️
 	* [Prototyping](#prototyping)
 	* [Web scraping, data extraction](#web-scraping-data-extraction)
 	* [Language processing](#language-processing)
-	* [Machine Learning](#machine-learning)
 	* [Parsing things](#parsing-things)
 	* [Building CLIs](#building-clis)
-	* [Running a server](#running-a-server)
 * [Data sets](#data-sets)
-	* [Language](#language)
-	* [Geographical data](#geographical-data)
-	* [Miscellaneous datasets](#miscellaneous-datasets)
 * [APIs](#apis)
 * [Command-line tools](#command-line-tools)
 * [Online tools](#online-tools)
@@ -42,13 +41,7 @@ Thanks for stopping by. ✌️
 	* [Start a server for a folder](#start-a-server-for-a-folder)
 	* [Fetch a file from the web](#fetch-a-file-from-the-web)
 	* [Make an S3 bucket publicly available](#make-an-s3-bucket-publicly-available) 
-* [Cheatsheets & recipes](#cheatsheets--recipes)
-	* [`ffmpeg`](#ffmpeg)
-	* [`wget`](#wget)
-	* [Unix command-line tools](#unix-command-line-tools)
-	* [MySQL queries](#mysql-queries)
-	* [Adobe Products](#adobe)
-* [Other lists](#other-lists)
+* [See also](#see-also)
 
 ## JavaScript libraries
 
@@ -80,8 +73,7 @@ Repo | Description | Notes
 [mojs](https://github.com/legomushroom/mojs) | motion graphics toolbelt for the web | 
 [matter-js](https://github.com/liabru/matter-js) | A 2D rigid body physics engine for the web |
 [ccapture.js](https://github.com/spite/ccapture.js/) | A library to capture canvas-based animations at a fixed framerate. |
-[anime.js](https://github.com/juliangarnier/anime/) | Anime.js (/ˈæn.ə.meɪ/) is a lightweight JavaScript animation library with a simple, yet powerful API.
-It works with CSS properties, SVG, DOM attributes and JavaScript Objects. |
+[anime.js](https://github.com/juliangarnier/anime/) | A lightweight JavaScript animation library with a simple, yet powerful API. It works with CSS properties, SVG, DOM attributes and JavaScript Objects. |
 
 ### Data visualization
 
@@ -98,7 +90,6 @@ Repo | Description | Notes
 ---- | ----------- | -----
 ★ [three.js](https://github.com/mrdoob/three.js/) [↪](https://threejs.org/) | JavaScript 3D library. | Much like D3 is the tool of choice for data visualization, three.js is the established library for working in 3D. See also [pre3d](https://github.com/deanm/pre3d/) (although it hasn't been worked on in ages).
 [regl](https://github.com/mikolalysenko/regl) [↪](http://regl.party/) | Fast functional WebGL. |
-[cannon.js](https://github.com/schteppe/cannon.js) | Inspired by three.js and ammo.js, and driven by the fact that the web lacks a physics engine, here comes cannon.js. The rigid body physics engine includes simple collision detection, various body shapes, contacts, friction and constraints. |
 [aframe](https://github.com/aframevr/aframe/) [↪](https://aframe.io/) | Building blocks for the VR Web. |
 [blotter](https://github.com/bradley/Blotter) [↪](https://blotter.js.org) | A JavaScript API for drawing unconventional text effects on the web. | It uses three.js under the hood.
 [pex](https://github.com/pex-gl/pex) [↪](http://variable.io/pex/) | PEX is a collection of modular software components that work together well to create a tool for computation thinking. |
@@ -119,24 +110,10 @@ Repo | Description | Notes
 [genish.js](https://github.com/charlieroberts/genish.js) [↪](http://www.charlie-roberts.com/genish/) | A library for generating optimized, single-sample audio callbacks in JavaScript. Inspired by gen~ in Max/MSP. |
 [howler.js](https://github.com/goldfire/howler.js) [↪](https://howlerjs.com/) | howler.js is an audio library for the modern web. It defaults to Web Audio API and falls back to HTML5 Audio. This makes working with audio in JavaScript easy and reliable across all platforms. |
 
-#### Utilities
-
-Repo | Description | Notes
----- | ----------- | -----
-[StartAudioContext](https://github.com/tambien/StartAudioContext) | starts the Web Audio API's AudioContext on an explicit user action. |
-[MediaStreamRecorder](https://github.com/streamproc/MediaStreamRecorder) [↪](https://www.webrtc-experiment.com/msr/) | Cross-browser audio/video/screen recording. It supports Chrome, Firefox, Opera and Microsoft Edge. It even works on Android browsers. It follows latest MediaRecorder API standards and provides similar APIs. |
-
-#### Dig deeper
+__Dig deeper:__
 
 * [awesome-webaudio](https://github.com/notthetup/awesome-webaudio)
 * [web-audio-resources](https://github.com/alemangui/web-audio-resources)
-
-### User Interfaces
-
-Repo | Description | Notes
----- | ----------- | -----
-[zingtouch](https://github.com/zingchart/zingtouch) | A JavaScript touch gesture detection library for the modern web |
-[shake.js](https://github.com/alexgibson/shake.js/) [↪](https://alexgibson.github.io/shake.js/) | A custom 'shake' event plugin for mobile web browsers using device accelerometer. 
 
 ### Mapping
 
@@ -158,6 +135,8 @@ To create PDFs from scratch, look at [pdfkit](https://github.com/foliojs/pdfkit)
 
 __EPUB.__ [starter-book](https://github.com/SaraVieira/starter-book) / [perfect-edition](https://github.com/robinsloan/perfect-edition).
 
+Repo | Description | Notes
+---- | ----------- | -----
 [pdf2json](https://github.com/modesty/pdf2json) | A PDF file parser that converts PDF binaries to text-based JSON, powered by a fork of pdf.js |
 [epub.js](https://github.com/futurepress/epub.js/) | EPUBs in the browser. |
 [magicbook](https://github.com/magicbookproject/magicbook) | It aims to be the best free tool for creating print and digital books from a single source. |
@@ -166,23 +145,15 @@ __EPUB.__ [starter-book](https://github.com/SaraVieira/starter-book) / [perfect-
 
 Repo | Description | Notes
 ---- | ----------- | -----
-[mnemonist](https://github.com/Yomguithereal/mnemonist) | Curated collection of data structures for the JavaScript language. |
-[graphlib](https://github.com/cpettitt/graphlib) | A directed multi-graph library for JavaScript. |
+[mnemonist](https://github.com/Yomguithereal/mnemonist) | Curated collection of data structures for the JavaScript language.
 
 ### App architecture
 
-#### View libraries
-
 Repo | Description | Notes
 ---- | ----------- | -----
-★ [react](https://github.com/facebook/react) [↪](https://reactjs.org/) | A declarative, efficient, and flexible JavaScript library for building user interfaces. | 
-[vue](https://github.com/vuejs/vue) [↪](http://vuejs.org/) | Simple yet powerful library for building modern web interfaces. | A lightweight alternative to React.
-
-#### Utilities
-
-Repo | Description | Notes
----- | ----------- | -----
-[page.js](https://github.com/visionmedia/page.js) | Micro client-side router inspired by the Express router
+★ [react](https://github.com/facebook/react) [↪](https://reactjs.org/) | A declarative, efficient, and flexible JavaScript library for building user interfaces. 
+[svelte](https://github.com/sveltejs/svelte) [↪](https://svelte.dev/) | Cybernetically enhanced web apps.
+[astro](https://astro.build/) | Build faster websites with less client-side JavaScript.
 
 ### Prototyping
 
@@ -191,7 +162,6 @@ This section contains tools that make it easier to just start working on your th
 Repo | Description | Notes
 ---- | ----------- | -----
 [storybook](https://github.com/storybooks/storybook) [↪](https://storybook.js.org/) | Storybook is a development environment for UI components. It allows you to browse a component library, view the different states of each component, and interactively develop and test components. | This works as a React (or Vue) playground that lets you focus on writing components.
-[hackathon-starter](https://github.com/sahat/hackathon-starter) | A boilerplate for Node.js web applications |
 
 ### Web scraping, data extraction
 
@@ -213,12 +183,6 @@ Repo | Description | Notes
 [nlp_compromise](https://github.com/nlp-compromise/nlp_compromise) | It's a handy, and not overly-fancy tool for understanding, changing, and playing with English. |
 [snowball-js](https://github.com/fortnightlabs/snowball-js) | javascript implementation of the popular snowball word stemming nlp algorithm | 
 
-### Machine Learning
-
-Repo | Description | Notes
----- | ----------- | -----
-[deeplearn.js](https://github.com/PAIR-code/deeplearnjs) [↪](https://deeplearnjs.org/) |Hardware-accelerated deep learning // machine learning // NumPy library for the web. |
-
 ### Parsing things
 
 Repo | Description | Notes
@@ -227,9 +191,10 @@ Repo | Description | Notes
 ★ [jsdom](https://github.com/jsdom/jsdom) | jsdom is a pure-JavaScript implementation of many web standards, notably the WHATWG DOM and HTML Standards, for use with Node.js. | Use this for more convenient methods to interact with the HTML (e.g. `querySelectorAll()`)
 [css](https://github.com/reworkcss/css) | CSS parser / stringifier for Node.js |
 [postcss](https://github.com/postcss/postcss) | PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more. | 
-[acorn](https://github.com/acornjs/acorn) | A tiny, fast JavaScript parser, written completely in JavaScript. | 
+★ [acorn](https://github.com/acornjs/acorn) | A tiny, fast JavaScript parser, written completely in JavaScript. | 
 [@babel/parser](https://github.com/babel/babel/tree/master/packages/babel-parser) [↪](https://babeljs.io/docs/en/next/babel-parser.html) | The Babel parser (previously Babylon) is a JavaScript parser used in Babel. | 
 [recast](https://github.com/benjamn/recast) | JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator. | Uses [`esprima`](https://github.com/jquery/esprima)\* as the default parser, but can be configured for `acorn` or `@babel/parser`. 
+★ [unified](https://github.com/unifiedjs/unified) [↪](https://unifiedjs.com/) | Content as structured data
 
 <small>\* `esprima` is one of the more mature ECMAScript parsers.</small>
 
@@ -242,40 +207,18 @@ Repo | Description | Notes
 
 [12 Factor CLI apps](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46)
 
-### Running a server
-
-I don't have much experience here; in the interim, the most popular Node frameworks for running a server:
-
-Repo | Description | Notes
----- | ----------- | -----
-[express](https://github.com/expressjs/express) [↪](https://expressjs.com/) | Fast, unopinionated, minimalist web framework for Node.js |
-[koa](https://github.com/koajs/koa) [↪](https://koajs.com/) | Koa is a new web framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs. |
-[hapi](https://github.com/hapijs/hapi) [↪](https://hapijs.com/) | A rich framework for building applications and services |
-
 ## Data sets
-
-### Language
 
 Repo | Description | Notes
 ---- | ----------- | -----
 [Words](https://github.com/atebits/Words/) | A _huge_ dataset of words in four languages (English, German, Spanish and French) used in Atebits' game Letterpress. |
 [corpora](https://github.com/dariusk/corpora) | A collection of small corpuses of interesting data for the creation of bots and similar stuff. | I also keep a repo, [inspired by it](https://github.com/danburzo/corpora).
-
-### Geographical Data
-
-Link | Description | Notes
----- | ----------- | -----
 [Natural Earth Vector](https://github.com/nvkelso/natural-earth-vector) | A global, public domain map dataset available at three scales and featuring tightly integrated vector and raster data. |
 [countries](https://github.com/mledoze/countries) | World countries in JSON, CSV and XML. |
 [geonames](http://www.geonames.org/export/) | contains over 10 million geographical names and consists of over 9 million unique features whereof 2.8 million populated places and 5.5 million alternate names. |
 [Geofabrik OSM Data Extracts](http://download.geofabrik.de/) | | On continent/country level.
 [Mapzen Metro Extracts](https://mapzen.com/data/metro-extracts) | City-sized portions of OpenStreetMap, served weekly | 
 [all-the-cities](https://github.com/zeke/all-the-cities) | All the 138,398 cities of the world with a population of at least 1000 inhabitants, in a big JSON array. |
-
-### Miscellaneous datasets
-
-Link | Description | Notes
----- | ----------- | -----
 [Awesome public datasets](https://github.com/caesar0301/awesome-public-datasets) | |
 [whiskyverse](https://github.com/Jonty/whiskyverse/) | | JSON file containing Scotch Malt Whisky Society bottles
 
@@ -437,40 +380,11 @@ All the files inside will typically be available at `http://myBucketName.s3.amaz
 
 __Extra credit:__ This is super-useful for hosting video files, since S3 supports __partial content requests__ which is needed to loop `<video>` on your web pages.
 
-## Cheatsheets & recipes
+## See also
 
-### `ffmpeg`
-
-[See the list of recipes](./ffmpeg.md)
-
-### `wget`
-
-[See the list of recipes](./wget.md)
-
-### `npm`
-
-[See the list of recipes](./npm.md)
-
-### Unix command-line tools
-
-> The standard command-line tools available on Unix-based systems are wonderful, if occasionally inscrutable. This page contains some commands I found useful.
-
-[See the list of recipes](./unix-cli.md)
-
-### MySQL Queries
-
-> Some useful tricks for working with data from MySQL tables.
-
-[See the list of recipes](./mysql.md)
-
-### Adobe products
-
-[See the list of recipes](./adobe.md)
-
-## Other lists
-
-* [A few good open-source typefaces](./typefaces.md)
-
-## Further reading
-
+* [everestpipkin/tools-list](https://github.com/everestpipkin/tools-list)
 * [awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding)
+
+## Colophon
+
+This list was inspired by [javierarce/toolbox](https://github.com/javierarce/toolbox).

@@ -34,6 +34,7 @@
 
 * [__IBM Plex__](https://www.ibm.com/plex/) ([repo](https://github.com/IBM/plex/))
 * [__Reforma__](https://pampatype.com/reforma) by PampaType
+* [__Recursive Sans & Mono__](https://www.recursive.design/) by Arrow Type
 
 ## Foundries
 

@@ -1,4 +1,4 @@
-# Adobe Stuff
+# Notes on Adobe products
 
 ## Photoshop
 
