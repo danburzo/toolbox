@@ -63,10 +63,18 @@ We use the `-gamma` option to decode the image to linear encoding, and then chan
 
 After resize we sharpen the image using the `-unsharp` option. Its arguments are a bit abstruse, but I found [an article on the topic](https://redskiesatnight.com/2005/04/06/sharpening-using-image-magick/) with some good rules of thumb.
 
-### Suffix image filenames with their width and height
+### Find out the dimensions of an image
+
+To suffix image filenames with their width and height:
 
 ```bash
 find . -type f -iname "*.png" | \
 xargs -L1 magick identify -format "%i\n%d/%t-%wx%h.%e\n" | \
 xargs -L2 mv
+```
+
+To produce HTML `<img>` tags for images, including `width` and `height` attributes:
+
+```bash
+find . -type f -iname "*.jpg" | xargs -L1 magick identify -format "<img src='%i' alt='' width='%w' height='%h'/>\n"
 ```
