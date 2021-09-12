@@ -205,7 +205,7 @@ Parsers generally produce an abstract syntax tree (AST) that follows the [estree
 
 To traverse and change the AST, then write it back as a string:
 
-* [recast](https://github.com/benjamn/recast) | JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator. | Uses `esprima` as the default parser, but can be configured for `acorn` or `@babel/parser`. 
+* [recast](https://github.com/benjamn/recast): JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator. Uses `esprima` as the default parser, but can be configured for `acorn` or `@babel/parser`. 
 * [astring](https://github.com/davidbonnet/astring)
 * [atravel](https://github.com/davidbonnet/astravel)
 
