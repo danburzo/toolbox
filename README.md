@@ -191,12 +191,29 @@ Repo | Description | Notes
 ★ [jsdom](https://github.com/jsdom/jsdom) | jsdom is a pure-JavaScript implementation of many web standards, notably the WHATWG DOM and HTML Standards, for use with Node.js. | Use this for more convenient methods to interact with the HTML (e.g. `querySelectorAll()`)
 [css](https://github.com/reworkcss/css) | CSS parser / stringifier for Node.js |
 [postcss](https://github.com/postcss/postcss) | PostCSS is a tool for transforming styles with JS plugins. These plugins can lint your CSS, support variables and mixins, transpile future CSS syntax, inline images, and more. | 
-★ [acorn](https://github.com/acornjs/acorn) | A tiny, fast JavaScript parser, written completely in JavaScript. | 
-[@babel/parser](https://github.com/babel/babel/tree/master/packages/babel-parser) [↪](https://babeljs.io/docs/en/next/babel-parser.html) | The Babel parser (previously Babylon) is a JavaScript parser used in Babel. | 
-[recast](https://github.com/benjamn/recast) | JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator. | Uses [`esprima`](https://github.com/jquery/esprima)\* as the default parser, but can be configured for `acorn` or `@babel/parser`. 
 ★ [unified](https://github.com/unifiedjs/unified) [↪](https://unifiedjs.com/) | Content as structured data
 
-<small>\* `esprima` is one of the more mature ECMAScript parsers.</small>
+#### Parsing JavaScript
+
+Parsers:
+
+* ★ [acorn](https://github.com/acornjs/acorn): A tiny, fast JavaScript parser, written completely in JavaScript.
+* [@babel/parser](https://github.com/babel/babel/tree/master/packages/babel-parser) [↪](https://babeljs.io/docs/en/next/babel-parser.html): The Babel parser (previously Babylon) is a JavaScript parser used in Babel.
+* [esprima](https://github.com/jquery/esprima)
+
+Parsers generally produce an abstract syntax tree (AST) that follows the [estree](https://github.com/estree/estree) format. Use [AST Explorer](https://astexplorer.net/) to look around.
+
+To traverse and change the AST, then write it back as a string:
+
+* [recast](https://github.com/benjamn/recast) | JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator. | Uses `esprima` as the default parser, but can be configured for `acorn` or `@babel/parser`. 
+* [astring](https://github.com/davidbonnet/astring)
+* [atravel](https://github.com/davidbonnet/astravel)
+
+To evaluate an AST expression, look at [eval-estree-expression](https://github.com/jonschlinkert/eval-estree-expression).
+
+Command-line tools:
+
+* [jscodeshift](https://github.com/facebook/jscodeshift), a CLI tool to apply transforms to JavaScript (it uses `recast` under the hood)
 
 ### Building CLIs
 
