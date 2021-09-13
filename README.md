@@ -1,5 +1,7 @@
 # Toolbox
 
+> ⚠️ This repository is now archived. The content lives on at [danburzo.ro/toolbox](https://danburzo.ro/toolbox).
+
 This is my collection of useful tricks, tools, libraries, APIs, data sources & other fun things.
 
 ## Separate pages
